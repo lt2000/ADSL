@@ -1,0 +1,1228 @@
+{
+    "invoke_statuses": [
+        {
+            "agg_data": true, 
+            "call_id": "00000", 
+            "callset_id": "dcdb66a3-5b45-44dc-a13a-bd36a3b62702", 
+            "cancel_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/00000/cancel", 
+            "data_byte_range": [
+                0, 
+                137
+            ], 
+            "data_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/aggdata.pickle", 
+            "data_size_bytes": 1380, 
+            "data_upload_time": 0.07553696632385254, 
+            "data_upload_timestamp": 1609043948.945603, 
+            "download_output_time": 0.04932999610900879, 
+            "download_output_timestamp": 1609043971.750238, 
+            "func_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/func.pickle", 
+            "func_module_str_len": 1027784, 
+            "func_upload_time": 0.1834399700164795, 
+            "func_upload_timestamp": 1609043949.153719, 
+            "host_submit_time": 1609043949.155979, 
+            "job_invoke_timestamp": 1609043949.154365, 
+            "job_max_runtime": 280, 
+            "lambda_function_name": "pywren_redis_2", 
+            "lambda_invoke_time": 0.15680718421936035, 
+            "lambda_invoke_timestamp": 1609043949.15599, 
+            "output_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/00000/output.pickle", 
+            "pywren_version": "0.4.0", 
+            "region_name": "us-west-2", 
+            "runtime": {
+                "runtime_storage": "s3", 
+                "s3_bucket": "pywren-runtimes-public-us-west-2", 
+                "s3_key": "pywren.runtimes/default_2.7.meta.json"
+            }, 
+            "runtime_url": "s3://pywren-runtimes-public-us-west-2/a6df23-pywren.runtimes/default_2.7.tar.gz.0071", 
+            "status_done_timestamp": 1609043971.700903, 
+            "status_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/00000/status.json", 
+            "status_query_count": 1, 
+            "storage_config": {
+                "backend_config": {
+                    "bucket": "ubuntu-pywren-274", 
+                    "region": "us-west-2"
+                }, 
+                "storage_backend": "s3", 
+                "storage_prefix": "pywren.jobs"
+            }, 
+            "use_cached_runtime": true
+        }, 
+        {
+            "agg_data": true, 
+            "call_id": "00001", 
+            "callset_id": "dcdb66a3-5b45-44dc-a13a-bd36a3b62702", 
+            "cancel_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/00001/cancel", 
+            "data_byte_range": [
+                138, 
+                275
+            ], 
+            "data_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/aggdata.pickle", 
+            "data_size_bytes": 1380, 
+            "data_upload_time": 0.07553696632385254, 
+            "data_upload_timestamp": 1609043948.945603, 
+            "download_output_time": 0.07200479507446289, 
+            "download_output_timestamp": 1609043971.833413, 
+            "func_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/func.pickle", 
+            "func_module_str_len": 1027784, 
+            "func_upload_time": 0.1834399700164795, 
+            "func_upload_timestamp": 1609043949.153719, 
+            "host_submit_time": 1609043949.163592, 
+            "job_invoke_timestamp": 1609043949.161893, 
+            "job_max_runtime": 280, 
+            "lambda_function_name": "pywren_redis_2", 
+            "lambda_invoke_time": 0.12827301025390625, 
+            "lambda_invoke_timestamp": 1609043949.163604, 
+            "output_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/00001/output.pickle", 
+            "pywren_version": "0.4.0", 
+            "region_name": "us-west-2", 
+            "runtime": {
+                "runtime_storage": "s3", 
+                "s3_bucket": "pywren-runtimes-public-us-west-2", 
+                "s3_key": "pywren.runtimes/default_2.7.meta.json"
+            }, 
+            "runtime_url": "s3://pywren-runtimes-public-us-west-2/1c4bf7-pywren.runtimes/default_2.7.tar.gz.0019", 
+            "status_done_timestamp": 1609043971.761403, 
+            "status_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/00001/status.json", 
+            "status_query_count": 1, 
+            "storage_config": {
+                "backend_config": {
+                    "bucket": "ubuntu-pywren-274", 
+                    "region": "us-west-2"
+                }, 
+                "storage_backend": "s3", 
+                "storage_prefix": "pywren.jobs"
+            }, 
+            "use_cached_runtime": true
+        }, 
+        {
+            "agg_data": true, 
+            "call_id": "00002", 
+            "callset_id": "dcdb66a3-5b45-44dc-a13a-bd36a3b62702", 
+            "cancel_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/00002/cancel", 
+            "data_byte_range": [
+                276, 
+                413
+            ], 
+            "data_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/aggdata.pickle", 
+            "data_size_bytes": 1380, 
+            "data_upload_time": 0.07553696632385254, 
+            "data_upload_timestamp": 1609043948.945603, 
+            "download_output_time": 0.050209999084472656, 
+            "download_output_timestamp": 1609043971.823161, 
+            "func_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/func.pickle", 
+            "func_module_str_len": 1027784, 
+            "func_upload_time": 0.1834399700164795, 
+            "func_upload_timestamp": 1609043949.153719, 
+            "host_submit_time": 1609043949.169166, 
+            "job_invoke_timestamp": 1609043949.162344, 
+            "job_max_runtime": 280, 
+            "lambda_function_name": "pywren_redis_2", 
+            "lambda_invoke_time": 0.13285112380981445, 
+            "lambda_invoke_timestamp": 1609043949.16918, 
+            "output_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/00002/output.pickle", 
+            "pywren_version": "0.4.0", 
+            "region_name": "us-west-2", 
+            "runtime": {
+                "runtime_storage": "s3", 
+                "s3_bucket": "pywren-runtimes-public-us-west-2", 
+                "s3_key": "pywren.runtimes/default_2.7.meta.json"
+            }, 
+            "runtime_url": "s3://pywren-runtimes-public-us-west-2/82c403-pywren.runtimes/default_2.7.tar.gz.0090", 
+            "status_done_timestamp": 1609043971.772944, 
+            "status_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/00002/status.json", 
+            "status_query_count": 1, 
+            "storage_config": {
+                "backend_config": {
+                    "bucket": "ubuntu-pywren-274", 
+                    "region": "us-west-2"
+                }, 
+                "storage_backend": "s3", 
+                "storage_prefix": "pywren.jobs"
+            }, 
+            "use_cached_runtime": true
+        }, 
+        {
+            "agg_data": true, 
+            "call_id": "00003", 
+            "callset_id": "dcdb66a3-5b45-44dc-a13a-bd36a3b62702", 
+            "cancel_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/00003/cancel", 
+            "data_byte_range": [
+                414, 
+                551
+            ], 
+            "data_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/aggdata.pickle", 
+            "data_size_bytes": 1380, 
+            "data_upload_time": 0.07553696632385254, 
+            "data_upload_timestamp": 1609043948.945603, 
+            "download_output_time": 0.06714296340942383, 
+            "download_output_timestamp": 1609043971.860092, 
+            "func_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/func.pickle", 
+            "func_module_str_len": 1027784, 
+            "func_upload_time": 0.1834399700164795, 
+            "func_upload_timestamp": 1609043949.153719, 
+            "host_submit_time": 1609043949.177691, 
+            "job_invoke_timestamp": 1609043949.167238, 
+            "job_max_runtime": 280, 
+            "lambda_function_name": "pywren_redis_2", 
+            "lambda_invoke_time": 0.11729693412780762, 
+            "lambda_invoke_timestamp": 1609043949.177705, 
+            "output_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/00003/output.pickle", 
+            "pywren_version": "0.4.0", 
+            "region_name": "us-west-2", 
+            "runtime": {
+                "runtime_storage": "s3", 
+                "s3_bucket": "pywren-runtimes-public-us-west-2", 
+                "s3_key": "pywren.runtimes/default_2.7.meta.json"
+            }, 
+            "runtime_url": "s3://pywren-runtimes-public-us-west-2/5445bd-pywren.runtimes/default_2.7.tar.gz.0096", 
+            "status_done_timestamp": 1609043971.792942, 
+            "status_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/00003/status.json", 
+            "status_query_count": 1, 
+            "storage_config": {
+                "backend_config": {
+                    "bucket": "ubuntu-pywren-274", 
+                    "region": "us-west-2"
+                }, 
+                "storage_backend": "s3", 
+                "storage_prefix": "pywren.jobs"
+            }, 
+            "use_cached_runtime": true
+        }, 
+        {
+            "agg_data": true, 
+            "call_id": "00004", 
+            "callset_id": "dcdb66a3-5b45-44dc-a13a-bd36a3b62702", 
+            "cancel_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/00004/cancel", 
+            "data_byte_range": [
+                552, 
+                689
+            ], 
+            "data_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/aggdata.pickle", 
+            "data_size_bytes": 1380, 
+            "data_upload_time": 0.07553696632385254, 
+            "data_upload_timestamp": 1609043948.945603, 
+            "download_output_time": 0.03747916221618652, 
+            "download_output_timestamp": 1609043971.814459, 
+            "func_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/func.pickle", 
+            "func_module_str_len": 1027784, 
+            "func_upload_time": 0.1834399700164795, 
+            "func_upload_timestamp": 1609043949.153719, 
+            "host_submit_time": 1609043949.173371, 
+            "job_invoke_timestamp": 1609043949.167892, 
+            "job_max_runtime": 280, 
+            "lambda_function_name": "pywren_redis_2", 
+            "lambda_invoke_time": 0.13295984268188477, 
+            "lambda_invoke_timestamp": 1609043949.173381, 
+            "output_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/00004/output.pickle", 
+            "pywren_version": "0.4.0", 
+            "region_name": "us-west-2", 
+            "runtime": {
+                "runtime_storage": "s3", 
+                "s3_bucket": "pywren-runtimes-public-us-west-2", 
+                "s3_key": "pywren.runtimes/default_2.7.meta.json"
+            }, 
+            "runtime_url": "s3://pywren-runtimes-public-us-west-2/830f4c-pywren.runtimes/default_2.7.tar.gz.0018", 
+            "status_done_timestamp": 1609043971.776974, 
+            "status_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/00004/status.json", 
+            "status_query_count": 1, 
+            "storage_config": {
+                "backend_config": {
+                    "bucket": "ubuntu-pywren-274", 
+                    "region": "us-west-2"
+                }, 
+                "storage_backend": "s3", 
+                "storage_prefix": "pywren.jobs"
+            }, 
+            "use_cached_runtime": true
+        }, 
+        {
+            "agg_data": true, 
+            "call_id": "00005", 
+            "callset_id": "dcdb66a3-5b45-44dc-a13a-bd36a3b62702", 
+            "cancel_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/00005/cancel", 
+            "data_byte_range": [
+                690, 
+                827
+            ], 
+            "data_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/aggdata.pickle", 
+            "data_size_bytes": 1380, 
+            "data_upload_time": 0.07553696632385254, 
+            "data_upload_timestamp": 1609043948.945603, 
+            "download_output_time": 0.04173588752746582, 
+            "download_output_timestamp": 1609043971.868929, 
+            "func_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/func.pickle", 
+            "func_module_str_len": 1027784, 
+            "func_upload_time": 0.1834399700164795, 
+            "func_upload_timestamp": 1609043949.153719, 
+            "host_submit_time": 1609043949.184177, 
+            "job_invoke_timestamp": 1609043949.182688, 
+            "job_max_runtime": 280, 
+            "lambda_function_name": "pywren_redis_2", 
+            "lambda_invoke_time": 0.132551908493042, 
+            "lambda_invoke_timestamp": 1609043949.184186, 
+            "output_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/00005/output.pickle", 
+            "pywren_version": "0.4.0", 
+            "region_name": "us-west-2", 
+            "runtime": {
+                "runtime_storage": "s3", 
+                "s3_bucket": "pywren-runtimes-public-us-west-2", 
+                "s3_key": "pywren.runtimes/default_2.7.meta.json"
+            }, 
+            "runtime_url": "s3://pywren-runtimes-public-us-west-2/e2a605-pywren.runtimes/default_2.7.tar.gz.0070", 
+            "status_done_timestamp": 1609043971.827187, 
+            "status_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/00005/status.json", 
+            "status_query_count": 1, 
+            "storage_config": {
+                "backend_config": {
+                    "bucket": "ubuntu-pywren-274", 
+                    "region": "us-west-2"
+                }, 
+                "storage_backend": "s3", 
+                "storage_prefix": "pywren.jobs"
+            }, 
+            "use_cached_runtime": true
+        }, 
+        {
+            "agg_data": true, 
+            "call_id": "00006", 
+            "callset_id": "dcdb66a3-5b45-44dc-a13a-bd36a3b62702", 
+            "cancel_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/00006/cancel", 
+            "data_byte_range": [
+                828, 
+                965
+            ], 
+            "data_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/aggdata.pickle", 
+            "data_size_bytes": 1380, 
+            "data_upload_time": 0.07553696632385254, 
+            "data_upload_timestamp": 1609043948.945603, 
+            "download_output_time": 0.024726152420043945, 
+            "download_output_timestamp": 1609043971.885215, 
+            "func_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/func.pickle", 
+            "func_module_str_len": 1027784, 
+            "func_upload_time": 0.1834399700164795, 
+            "func_upload_timestamp": 1609043949.153719, 
+            "host_submit_time": 1609043949.19629, 
+            "job_invoke_timestamp": 1609043949.182948, 
+            "job_max_runtime": 280, 
+            "lambda_function_name": "pywren_redis_2", 
+            "lambda_invoke_time": 0.11586594581604004, 
+            "lambda_invoke_timestamp": 1609043949.196302, 
+            "output_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/00006/output.pickle", 
+            "pywren_version": "0.4.0", 
+            "region_name": "us-west-2", 
+            "runtime": {
+                "runtime_storage": "s3", 
+                "s3_bucket": "pywren-runtimes-public-us-west-2", 
+                "s3_key": "pywren.runtimes/default_2.7.meta.json"
+            }, 
+            "runtime_url": "s3://pywren-runtimes-public-us-west-2/fc9684-pywren.runtimes/default_2.7.tar.gz.0061", 
+            "status_done_timestamp": 1609043971.860482, 
+            "status_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/00006/status.json", 
+            "status_query_count": 1, 
+            "storage_config": {
+                "backend_config": {
+                    "bucket": "ubuntu-pywren-274", 
+                    "region": "us-west-2"
+                }, 
+                "storage_backend": "s3", 
+                "storage_prefix": "pywren.jobs"
+            }, 
+            "use_cached_runtime": true
+        }, 
+        {
+            "agg_data": true, 
+            "call_id": "00007", 
+            "callset_id": "dcdb66a3-5b45-44dc-a13a-bd36a3b62702", 
+            "cancel_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/00007/cancel", 
+            "data_byte_range": [
+                966, 
+                1103
+            ], 
+            "data_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/aggdata.pickle", 
+            "data_size_bytes": 1380, 
+            "data_upload_time": 0.07553696632385254, 
+            "data_upload_timestamp": 1609043948.945603, 
+            "download_output_time": 0.04057002067565918, 
+            "download_output_timestamp": 1609043971.888195, 
+            "func_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/func.pickle", 
+            "func_module_str_len": 1027784, 
+            "func_upload_time": 0.1834399700164795, 
+            "func_upload_timestamp": 1609043949.153719, 
+            "host_submit_time": 1609043949.188127, 
+            "job_invoke_timestamp": 1609043949.183231, 
+            "job_max_runtime": 280, 
+            "lambda_function_name": "pywren_redis_2", 
+            "lambda_invoke_time": 0.11158490180969238, 
+            "lambda_invoke_timestamp": 1609043949.188136, 
+            "output_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/00007/output.pickle", 
+            "pywren_version": "0.4.0", 
+            "region_name": "us-west-2", 
+            "runtime": {
+                "runtime_storage": "s3", 
+                "s3_bucket": "pywren-runtimes-public-us-west-2", 
+                "s3_key": "pywren.runtimes/default_2.7.meta.json"
+            }, 
+            "runtime_url": "s3://pywren-runtimes-public-us-west-2/7da364-pywren.runtimes/default_2.7.tar.gz.0055", 
+            "status_done_timestamp": 1609043971.847614, 
+            "status_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/00007/status.json", 
+            "status_query_count": 1, 
+            "storage_config": {
+                "backend_config": {
+                    "bucket": "ubuntu-pywren-274", 
+                    "region": "us-west-2"
+                }, 
+                "storage_backend": "s3", 
+                "storage_prefix": "pywren.jobs"
+            }, 
+            "use_cached_runtime": true
+        }, 
+        {
+            "agg_data": true, 
+            "call_id": "00008", 
+            "callset_id": "dcdb66a3-5b45-44dc-a13a-bd36a3b62702", 
+            "cancel_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/00008/cancel", 
+            "data_byte_range": [
+                1104, 
+                1241
+            ], 
+            "data_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/aggdata.pickle", 
+            "data_size_bytes": 1380, 
+            "data_upload_time": 0.07553696632385254, 
+            "data_upload_timestamp": 1609043948.945603, 
+            "download_output_time": 0.058634042739868164, 
+            "download_output_timestamp": 1609043971.869952, 
+            "func_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/func.pickle", 
+            "func_module_str_len": 1027784, 
+            "func_upload_time": 0.1834399700164795, 
+            "func_upload_timestamp": 1609043949.153719, 
+            "host_submit_time": 1609043949.194872, 
+            "job_invoke_timestamp": 1609043949.188255, 
+            "job_max_runtime": 280, 
+            "lambda_function_name": "pywren_redis_2", 
+            "lambda_invoke_time": 0.10931777954101562, 
+            "lambda_invoke_timestamp": 1609043949.194883, 
+            "output_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/00008/output.pickle", 
+            "pywren_version": "0.4.0", 
+            "region_name": "us-west-2", 
+            "runtime": {
+                "runtime_storage": "s3", 
+                "s3_bucket": "pywren-runtimes-public-us-west-2", 
+                "s3_key": "pywren.runtimes/default_2.7.meta.json"
+            }, 
+            "runtime_url": "s3://pywren-runtimes-public-us-west-2/f92bca-pywren.runtimes/default_2.7.tar.gz.0036", 
+            "status_done_timestamp": 1609043971.811313, 
+            "status_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/00008/status.json", 
+            "status_query_count": 1, 
+            "storage_config": {
+                "backend_config": {
+                    "bucket": "ubuntu-pywren-274", 
+                    "region": "us-west-2"
+                }, 
+                "storage_backend": "s3", 
+                "storage_prefix": "pywren.jobs"
+            }, 
+            "use_cached_runtime": true
+        }, 
+        {
+            "agg_data": true, 
+            "call_id": "00009", 
+            "callset_id": "dcdb66a3-5b45-44dc-a13a-bd36a3b62702", 
+            "cancel_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/00009/cancel", 
+            "data_byte_range": [
+                1242, 
+                1379
+            ], 
+            "data_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/aggdata.pickle", 
+            "data_size_bytes": 1380, 
+            "data_upload_time": 0.07553696632385254, 
+            "data_upload_timestamp": 1609043948.945603, 
+            "download_output_time": 0.04132485389709473, 
+            "download_output_timestamp": 1609043971.877929, 
+            "func_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/func.pickle", 
+            "func_module_str_len": 1027784, 
+            "func_upload_time": 0.1834399700164795, 
+            "func_upload_timestamp": 1609043949.153719, 
+            "host_submit_time": 1609043949.203651, 
+            "job_invoke_timestamp": 1609043949.192362, 
+            "job_max_runtime": 280, 
+            "lambda_function_name": "pywren_redis_2", 
+            "lambda_invoke_time": 0.10453391075134277, 
+            "lambda_invoke_timestamp": 1609043949.203665, 
+            "output_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/00009/output.pickle", 
+            "pywren_version": "0.4.0", 
+            "region_name": "us-west-2", 
+            "runtime": {
+                "runtime_storage": "s3", 
+                "s3_bucket": "pywren-runtimes-public-us-west-2", 
+                "s3_key": "pywren.runtimes/default_2.7.meta.json"
+            }, 
+            "runtime_url": "s3://pywren-runtimes-public-us-west-2/7d9958-pywren.runtimes/default_2.7.tar.gz.0030", 
+            "status_done_timestamp": 1609043971.836598, 
+            "status_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/00009/status.json", 
+            "status_query_count": 1, 
+            "storage_config": {
+                "backend_config": {
+                    "bucket": "ubuntu-pywren-274", 
+                    "region": "us-west-2"
+                }, 
+                "storage_backend": "s3", 
+                "storage_prefix": "pywren.jobs"
+            }, 
+            "use_cached_runtime": true
+        }
+    ], 
+    "results": [
+        [
+            1609043958.643521, 
+            1609043969.666897, 
+            10.00095796585083, 
+            [
+                [
+                    [
+                        1609043960.646524, 
+                        12923.154425098292
+                    ], 
+                    [
+                        1609043961.647105, 
+                        12906.803552880649
+                    ], 
+                    [
+                        1609043962.646971, 
+                        13066.075963574216
+                    ], 
+                    [
+                        1609043963.647052, 
+                        13059.607904630315
+                    ], 
+                    [
+                        1609043964.646613, 
+                        13413.461607610572
+                    ], 
+                    [
+                        1609043965.64706, 
+                        12755.268569315564
+                    ], 
+                    [
+                        1609043966.647009, 
+                        12880.805343643422
+                    ], 
+                    [
+                        1609043967.646967, 
+                        12905.755882960631
+                    ], 
+                    [
+                        1609043968.646499, 
+                        12884.351577000434
+                    ]
+                ]
+            ]
+        ], 
+        [
+            1609043959.423505, 
+            1609043970.446869, 
+            10.000601053237915, 
+            [
+                [
+                    [
+                        1609043961.426962, 
+                        13688.053700308534
+                    ], 
+                    [
+                        1609043962.42665, 
+                        13907.73601454701
+                    ], 
+                    [
+                        1609043963.426238, 
+                        13499.23733621172
+                    ], 
+                    [
+                        1609043964.42687, 
+                        14196.635126377187
+                    ], 
+                    [
+                        1609043965.426306, 
+                        13299.471398372942
+                    ], 
+                    [
+                        1609043966.426816, 
+                        12777.802982724197
+                    ], 
+                    [
+                        1609043967.426931, 
+                        13572.556525510512
+                    ], 
+                    [
+                        1609043968.42663, 
+                        13178.58612994947
+                    ], 
+                    [
+                        1609043969.426799, 
+                        13705.752662460363
+                    ]
+                ]
+            ]
+        ], 
+        [
+            1609043959.804973, 
+            1609043970.830312, 
+            10.000800848007202, 
+            [
+                [
+                    [
+                        1609043961.808183, 
+                        12481.110360610024
+                    ], 
+                    [
+                        1609043962.808145, 
+                        12554.29297194547
+                    ], 
+                    [
+                        1609043963.808791, 
+                        12284.963529679679
+                    ], 
+                    [
+                        1609043964.808496, 
+                        12471.663943809543
+                    ], 
+                    [
+                        1609043965.80864, 
+                        12174.758694407692
+                    ], 
+                    [
+                        1609043966.808297, 
+                        12520.10717334026
+                    ], 
+                    [
+                        1609043967.808076, 
+                        12360.987059164609
+                    ], 
+                    [
+                        1609043968.808748, 
+                        12940.245863259395
+                    ], 
+                    [
+                        1609043969.808197, 
+                        12949.11163797242
+                    ]
+                ]
+            ]
+        ], 
+        [
+            1609043958.980651, 
+            1609043970.005135, 
+            10.001041173934937, 
+            [
+                [
+                    [
+                        1609043960.984237, 
+                        12920.486829760775
+                    ], 
+                    [
+                        1609043961.984208, 
+                        12962.739325076696
+                    ], 
+                    [
+                        1609043962.984252, 
+                        13518.31162753251
+                    ], 
+                    [
+                        1609043963.984314, 
+                        13124.59708885445
+                    ], 
+                    [
+                        1609043964.984467, 
+                        13187.901689397539
+                    ], 
+                    [
+                        1609043965.984289, 
+                        13349.173352060905
+                    ], 
+                    [
+                        1609043966.984333, 
+                        13092.816071494206
+                    ], 
+                    [
+                        1609043967.984038, 
+                        13012.240146394217
+                    ], 
+                    [
+                        1609043968.984692, 
+                        13129.240860704935
+                    ]
+                ]
+            ]
+        ], 
+        [
+            1609043958.748753, 
+            1609043969.774007, 
+            10.001075983047485, 
+            [
+                [
+                    [
+                        1609043960.752605, 
+                        12206.437115842098
+                    ], 
+                    [
+                        1609043961.75222, 
+                        12279.955113653747
+                    ], 
+                    [
+                        1609043962.752487, 
+                        12597.273414400857
+                    ], 
+                    [
+                        1609043963.752465, 
+                        12759.50987906236
+                    ], 
+                    [
+                        1609043964.752447, 
+                        12857.64085834013
+                    ], 
+                    [
+                        1609043965.752748, 
+                        12850.324895995189
+                    ], 
+                    [
+                        1609043966.752548, 
+                        12514.710681419941
+                    ], 
+                    [
+                        1609043967.752547, 
+                        12868.756785333295
+                    ], 
+                    [
+                        1609043968.752642, 
+                        12850.470099032256
+                    ]
+                ]
+            ]
+        ], 
+        [
+            1609043959.104241, 
+            1609043970.126861, 
+            10.001728057861328, 
+            [
+                [
+                    [
+                        1609043961.107796, 
+                        11594.306404024624
+                    ], 
+                    [
+                        1609043962.107167, 
+                        11646.289302555673
+                    ], 
+                    [
+                        1609043963.107232, 
+                        11564.260184759702
+                    ], 
+                    [
+                        1609043964.108114, 
+                        11986.397454346461
+                    ], 
+                    [
+                        1609043965.107837, 
+                        11841.69383733502
+                    ], 
+                    [
+                        1609043966.108259, 
+                        11689.353720530598
+                    ], 
+                    [
+                        1609043967.107388, 
+                        11788.071274480946
+                    ], 
+                    [
+                        1609043968.10777, 
+                        11827.212671776166
+                    ], 
+                    [
+                        1609043969.107133, 
+                        11763.9594390507
+                    ]
+                ]
+            ]
+        ], 
+        [
+            1609043958.835556, 
+            1609043969.859118, 
+            10.001000881195068, 
+            [
+                [
+                    [
+                        1609043960.839821, 
+                        12574.094799378485
+                    ], 
+                    [
+                        1609043961.839328, 
+                        12581.249612663793
+                    ], 
+                    [
+                        1609043962.838813, 
+                        12910.971557166202
+                    ], 
+                    [
+                        1609043963.839433, 
+                        13149.168990547143
+                    ], 
+                    [
+                        1609043964.838938, 
+                        13075.916742215397
+                    ], 
+                    [
+                        1609043965.838805, 
+                        12876.961660431469
+                    ], 
+                    [
+                        1609043966.838878, 
+                        12892.502207839625
+                    ], 
+                    [
+                        1609043967.838716, 
+                        13034.018157853383
+                    ], 
+                    [
+                        1609043968.838894, 
+                        13060.130204579562
+                    ]
+                ]
+            ]
+        ], 
+        [
+            1609043959.178055, 
+            1609043970.210854, 
+            10.00042200088501, 
+            [
+                [
+                    [
+                        1609043961.180943, 
+                        12160.349163472365
+                    ], 
+                    [
+                        1609043962.18202, 
+                        12052.7817310658
+                    ], 
+                    [
+                        1609043963.181541, 
+                        12496.9901156297
+                    ], 
+                    [
+                        1609043964.181804, 
+                        12721.604724287725
+                    ], 
+                    [
+                        1609043965.181549, 
+                        12779.41833074775
+                    ], 
+                    [
+                        1609043966.18183, 
+                        12410.115318183865
+                    ], 
+                    [
+                        1609043967.181117, 
+                        12610.761328992921
+                    ], 
+                    [
+                        1609043968.181009, 
+                        12525.473010795682
+                    ], 
+                    [
+                        1609043969.181804, 
+                        12639.671278571699
+                    ]
+                ]
+            ]
+        ], 
+        [
+            1609043960.126783, 
+            1609043971.150845, 
+            10.000841856002808, 
+            [
+                [
+                    [
+                        1609043962.130448, 
+                        12393.36017411343
+                    ], 
+                    [
+                        1609043963.12987, 
+                        12499.73409532962
+                    ], 
+                    [
+                        1609043964.12985, 
+                        12891.931033572982
+                    ], 
+                    [
+                        1609043965.130413, 
+                        12643.174957872558
+                    ], 
+                    [
+                        1609043966.130251, 
+                        13084.933621358612
+                    ], 
+                    [
+                        1609043967.130006, 
+                        13148.895089406886
+                    ], 
+                    [
+                        1609043968.130364, 
+                        12962.456230700791
+                    ], 
+                    [
+                        1609043969.129872, 
+                        13494.027386443364
+                    ], 
+                    [
+                        1609043970.130107, 
+                        12944.750127951565
+                    ]
+                ]
+            ]
+        ], 
+        [
+            1609043958.793707, 
+            1609043969.816601, 
+            10.000717163085938, 
+            [
+                [
+                    [
+                        1609043960.797174, 
+                        14309.545733799478
+                    ], 
+                    [
+                        1609043961.797364, 
+                        14690.84245837297
+                    ], 
+                    [
+                        1609043962.797053, 
+                        14073.783019738443
+                    ], 
+                    [
+                        1609043963.797518, 
+                        13298.145173334684
+                    ], 
+                    [
+                        1609043964.797224, 
+                        14311.271120946683
+                    ], 
+                    [
+                        1609043965.79735, 
+                        14128.761649862205
+                    ], 
+                    [
+                        1609043966.796906, 
+                        13777.37331565788
+                    ], 
+                    [
+                        1609043967.797296, 
+                        14008.310672733483
+                    ], 
+                    [
+                        1609043968.796818, 
+                        14801.08681683316
+                    ]
+                ]
+            ]
+        ]
+    ], 
+    "run_statuses": [
+        {
+            "aws_request_id": "5f170b61-a09b-499d-a0b3-fa577d134c14", 
+            "call_id": "00000", 
+            "callset_id": "dcdb66a3-5b45-44dc-a13a-bd36a3b62702", 
+            "data_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/aggdata.pickle", 
+            "end_time": 1609043970.10717, 
+            "exception": null, 
+            "exec_time": 12.094361066818237, 
+            "free_disk_bytes": 538333184, 
+            "func_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/func.pickle", 
+            "host_submit_time": 1609043949.155979, 
+            "log_group_name": "/aws/lambda/pywren_redis_2", 
+            "log_stream_name": "2020/12/27/[$LATEST]7fc2e55e50234cbaa3cf19ef775567da", 
+            "output_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/00000/output.pickle", 
+            "retcode": 0, 
+            "runtime_cached": false, 
+            "runtime_s3_bucket_used": "pywren-runtimes-public-us-west-2", 
+            "runtime_s3_key_used": "a6df23-pywren.runtimes/default_2.7.tar.gz.0071", 
+            "server_info": {
+                "/proc/cgroups": "#subsys_name\thierarchy\tnum_cgroups\tenabled\ncpuset\t6\t1\t1\ncpu\t9\t5\t1\ncpuacct\t9\t5\t1\nblkio\t2\t1\t1\nmemory\t10\t5\t1\ndevices\t3\t1\t1\nfreezer\t5\t2\t1\nnet_cls\t7\t1\t1\nperf_event\t4\t1\t1\nnet_prio\t7\t1\t1\nhugetlb\t8\t1\t1\npids\t11\t1\t1\n", 
+                "/proc/cpuinfo": "processor\t: 0\nvendor_id\t: GenuineIntel\ncpu family\t: 6\nmodel\t\t: 63\nmodel name\t: Intel(R) Xeon(R) Processor @ 2.50GHz\nstepping\t: 2\nmicrocode\t: 0x1\ncpu MHz\t\t: 2500.010\ncache size\t: 36608 KB\nphysical id\t: 0\nsiblings\t: 2\ncore id\t\t: 0\ncpu cores\t: 2\napicid\t\t: 0\ninitial apicid\t: 0\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 13\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm cpuid_fault invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid smap xsaveopt arat md_clear arch_capabilities\nbugs\t\t: spectre_v1 spectre_v2 spec_store_bypass swapgs\nbogomips\t: 5000.02\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 46 bits physical, 48 bits virtual\npower management:\n\nprocessor\t: 1\nvendor_id\t: GenuineIntel\ncpu family\t: 6\nmodel\t\t: 63\nmodel name\t: Intel(R) Xeon(R) Processor @ 2.50GHz\nstepping\t: 2\nmicrocode\t: 0x1\ncpu MHz\t\t: 2500.010\ncache size\t: 36608 KB\nphysical id\t: 0\nsiblings\t: 2\ncore id\t\t: 1\ncpu cores\t: 2\napicid\t\t: 1\ninitial apicid\t: 1\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 13\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm cpuid_fault invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid smap xsaveopt arat md_clear arch_capabilities\nbugs\t\t: spectre_v1 spectre_v2 spec_store_bypass swapgs\nbogomips\t: 5000.02\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 46 bits physical, 48 bits virtual\npower management:\n\n", 
+                "/proc/meminfo": "MemTotal:        1717184 kB\nMemFree:         1112108 kB\nMemAvailable:    1480488 kB\nBuffers:           17564 kB\nCached:           461768 kB\nSwapCached:            0 kB\nActive:           100492 kB\nInactive:         449216 kB\nActive(anon):      67072 kB\nInactive(anon):      216 kB\nActive(file):      33420 kB\nInactive(file):   449000 kB\nUnevictable:           0 kB\nMlocked:               0 kB\nSwapTotal:             0 kB\nSwapFree:              0 kB\nDirty:              8996 kB\nWriteback:             0 kB\nAnonPages:         70272 kB\nMapped:            35508 kB\nShmem:               220 kB\nSlab:              42968 kB\nSReclaimable:      32936 kB\nSUnreclaim:        10032 kB\nKernelStack:        1152 kB\nPageTables:         1296 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:      858592 kB\nCommitted_AS:     251736 kB\nVmallocTotal:   34359738367 kB\nVmallocUsed:           0 kB\nVmallocChunk:          0 kB\nAnonHugePages:         0 kB\nShmemHugePages:        0 kB\nShmemPmdMapped:        0 kB\nHugePages_Total:       0\nHugePages_Free:        0\nHugePages_Rsvd:        0\nHugePages_Surp:        0\nHugepagesize:       2048 kB\nDirectMap4k:       21504 kB\nDirectMap2M:     1740800 kB\n", 
+                "/proc/self/cgroup": "MemTotal:        1717184 kB\nMemFree:         1112108 kB\nMemAvailable:    1480488 kB\nBuffers:           17564 kB\nCached:           461768 kB\nSwapCached:            0 kB\nActive:           100492 kB\nInactive:         449216 kB\nActive(anon):      67072 kB\nInactive(anon):      216 kB\nActive(file):      33420 kB\nInactive(file):   449000 kB\nUnevictable:           0 kB\nMlocked:               0 kB\nSwapTotal:             0 kB\nSwapFree:              0 kB\nDirty:              8996 kB\nWriteback:             0 kB\nAnonPages:         70272 kB\nMapped:            35508 kB\nShmem:               220 kB\nSlab:              42968 kB\nSReclaimable:      32936 kB\nSUnreclaim:        10032 kB\nKernelStack:        1152 kB\nPageTables:         1296 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:      858592 kB\nCommitted_AS:     251736 kB\nVmallocTotal:   34359738367 kB\nVmallocUsed:           0 kB\nVmallocChunk:          0 kB\nAnonHugePages:         0 kB\nShmemHugePages:        0 kB\nShmemPmdMapped:        0 kB\nHugePages_Total:       0\nHugePages_Free:        0\nHugePages_Rsvd:        0\nHugePages_Surp:        0\nHugepagesize:       2048 kB\nDirectMap4k:       21504 kB\nDirectMap2M:     1740800 kB\n", 
+                "uname": "('Linux', '169.254.155.197', '4.14.203-112.332.amzn2.x86_64', '#1 SMP Wed Nov 4 20:46:34 UTC 2020', 'x86_64', 'x86_64')"
+            }, 
+            "setup_time": 8.046170949935913, 
+            "start_time": 1609043949.966644, 
+            "status_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/00000/status.json", 
+            "stdout": ""
+        }, 
+        {
+            "aws_request_id": "08d44fa0-a29b-4343-92bc-a45e1c8202ec", 
+            "call_id": "00001", 
+            "callset_id": "dcdb66a3-5b45-44dc-a13a-bd36a3b62702", 
+            "data_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/aggdata.pickle", 
+            "end_time": 1609043970.881573, 
+            "exception": null, 
+            "exec_time": 12.071562051773071, 
+            "free_disk_bytes": 538333184, 
+            "func_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/func.pickle", 
+            "host_submit_time": 1609043949.163592, 
+            "log_group_name": "/aws/lambda/pywren_redis_2", 
+            "log_stream_name": "2020/12/27/[$LATEST]96528e8e482c4eca84876e8d6b18d490", 
+            "output_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/00001/output.pickle", 
+            "retcode": 0, 
+            "runtime_cached": false, 
+            "runtime_s3_bucket_used": "pywren-runtimes-public-us-west-2", 
+            "runtime_s3_key_used": "1c4bf7-pywren.runtimes/default_2.7.tar.gz.0019", 
+            "server_info": {
+                "/proc/cgroups": "#subsys_name\thierarchy\tnum_cgroups\tenabled\ncpuset\t10\t1\t1\ncpu\t4\t5\t1\ncpuacct\t4\t5\t1\nblkio\t2\t1\t1\nmemory\t6\t5\t1\ndevices\t5\t1\t1\nfreezer\t9\t2\t1\nnet_cls\t3\t1\t1\nperf_event\t11\t1\t1\nnet_prio\t3\t1\t1\nhugetlb\t7\t1\t1\npids\t8\t1\t1\n", 
+                "/proc/cpuinfo": "processor\t: 0\nvendor_id\t: GenuineIntel\ncpu family\t: 6\nmodel\t\t: 63\nmodel name\t: Intel(R) Xeon(R) Processor @ 2.50GHz\nstepping\t: 2\nmicrocode\t: 0x1\ncpu MHz\t\t: 2500.002\ncache size\t: 36608 KB\nphysical id\t: 0\nsiblings\t: 2\ncore id\t\t: 0\ncpu cores\t: 2\napicid\t\t: 0\ninitial apicid\t: 0\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 13\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm cpuid_fault invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid smap xsaveopt arat md_clear arch_capabilities\nbugs\t\t: spectre_v1 spectre_v2 spec_store_bypass swapgs\nbogomips\t: 5000.00\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 46 bits physical, 48 bits virtual\npower management:\n\nprocessor\t: 1\nvendor_id\t: GenuineIntel\ncpu family\t: 6\nmodel\t\t: 63\nmodel name\t: Intel(R) Xeon(R) Processor @ 2.50GHz\nstepping\t: 2\nmicrocode\t: 0x1\ncpu MHz\t\t: 2500.002\ncache size\t: 36608 KB\nphysical id\t: 0\nsiblings\t: 2\ncore id\t\t: 1\ncpu cores\t: 2\napicid\t\t: 1\ninitial apicid\t: 1\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 13\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm cpuid_fault invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid smap xsaveopt arat md_clear arch_capabilities\nbugs\t\t: spectre_v1 spectre_v2 spec_store_bypass swapgs\nbogomips\t: 5000.00\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 46 bits physical, 48 bits virtual\npower management:\n\n", 
+                "/proc/meminfo": "MemTotal:        1717184 kB\nMemFree:         1112456 kB\nMemAvailable:    1479816 kB\nBuffers:           17200 kB\nCached:           463768 kB\nSwapCached:            0 kB\nActive:           100992 kB\nInactive:         448352 kB\nActive(anon):      67752 kB\nInactive(anon):      216 kB\nActive(file):      33240 kB\nInactive(file):   448136 kB\nUnevictable:           0 kB\nMlocked:               0 kB\nSwapTotal:             0 kB\nSwapFree:              0 kB\nDirty:             48252 kB\nWriteback:             0 kB\nAnonPages:         68376 kB\nMapped:            35420 kB\nShmem:               220 kB\nSlab:              42916 kB\nSReclaimable:      32980 kB\nSUnreclaim:         9936 kB\nKernelStack:        1176 kB\nPageTables:         1428 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:      858592 kB\nCommitted_AS:     253744 kB\nVmallocTotal:   34359738367 kB\nVmallocUsed:           0 kB\nVmallocChunk:          0 kB\nAnonHugePages:         0 kB\nShmemHugePages:        0 kB\nShmemPmdMapped:        0 kB\nHugePages_Total:       0\nHugePages_Free:        0\nHugePages_Rsvd:        0\nHugePages_Surp:        0\nHugepagesize:       2048 kB\nDirectMap4k:       23552 kB\nDirectMap2M:     1738752 kB\n", 
+                "/proc/self/cgroup": "MemTotal:        1717184 kB\nMemFree:         1112456 kB\nMemAvailable:    1479816 kB\nBuffers:           17200 kB\nCached:           463768 kB\nSwapCached:            0 kB\nActive:           100992 kB\nInactive:         448352 kB\nActive(anon):      67752 kB\nInactive(anon):      216 kB\nActive(file):      33240 kB\nInactive(file):   448136 kB\nUnevictable:           0 kB\nMlocked:               0 kB\nSwapTotal:             0 kB\nSwapFree:              0 kB\nDirty:             48252 kB\nWriteback:             0 kB\nAnonPages:         68376 kB\nMapped:            35420 kB\nShmem:               220 kB\nSlab:              42916 kB\nSReclaimable:      32980 kB\nSUnreclaim:         9936 kB\nKernelStack:        1176 kB\nPageTables:         1428 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:      858592 kB\nCommitted_AS:     253744 kB\nVmallocTotal:   34359738367 kB\nVmallocUsed:           0 kB\nVmallocChunk:          0 kB\nAnonHugePages:         0 kB\nShmemHugePages:        0 kB\nShmemPmdMapped:        0 kB\nHugePages_Total:       0\nHugePages_Free:        0\nHugePages_Rsvd:        0\nHugePages_Surp:        0\nHugepagesize:       2048 kB\nDirectMap4k:       23552 kB\nDirectMap2M:     1738752 kB\n", 
+                "uname": "('Linux', '169.254.86.53', '4.14.203-112.332.amzn2.x86_64', '#1 SMP Wed Nov 4 20:46:34 UTC 2020', 'x86_64', 'x86_64')"
+            }, 
+            "setup_time": 8.826797008514404, 
+            "start_time": 1609043949.983221, 
+            "status_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/00001/status.json", 
+            "stdout": ""
+        }, 
+        {
+            "aws_request_id": "117c0886-19b2-4006-8cca-220904274a59", 
+            "call_id": "00002", 
+            "callset_id": "dcdb66a3-5b45-44dc-a13a-bd36a3b62702", 
+            "data_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/aggdata.pickle", 
+            "end_time": 1609043971.243935, 
+            "exception": null, 
+            "exec_time": 12.102957010269165, 
+            "free_disk_bytes": 538333184, 
+            "func_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/func.pickle", 
+            "host_submit_time": 1609043949.169166, 
+            "log_group_name": "/aws/lambda/pywren_redis_2", 
+            "log_stream_name": "2020/12/27/[$LATEST]1f9f760f079b4e228c551881b92c8d78", 
+            "output_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/00002/output.pickle", 
+            "retcode": 0, 
+            "runtime_cached": false, 
+            "runtime_s3_bucket_used": "pywren-runtimes-public-us-west-2", 
+            "runtime_s3_key_used": "82c403-pywren.runtimes/default_2.7.tar.gz.0090", 
+            "server_info": {
+                "/proc/cgroups": "#subsys_name\thierarchy\tnum_cgroups\tenabled\ncpuset\t10\t1\t1\ncpu\t4\t5\t1\ncpuacct\t4\t5\t1\nblkio\t11\t1\t1\nmemory\t8\t5\t1\ndevices\t6\t1\t1\nfreezer\t2\t2\t1\nnet_cls\t3\t1\t1\nperf_event\t9\t1\t1\nnet_prio\t3\t1\t1\nhugetlb\t5\t1\t1\npids\t7\t1\t1\n", 
+                "/proc/cpuinfo": "processor\t: 0\nvendor_id\t: GenuineIntel\ncpu family\t: 6\nmodel\t\t: 63\nmodel name\t: Intel(R) Xeon(R) Processor @ 2.50GHz\nstepping\t: 2\nmicrocode\t: 0x1\ncpu MHz\t\t: 2500.008\ncache size\t: 33792 KB\nphysical id\t: 0\nsiblings\t: 2\ncore id\t\t: 0\ncpu cores\t: 2\napicid\t\t: 0\ninitial apicid\t: 0\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 13\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm cpuid_fault invpcid_single pti ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid smap xsaveopt arat md_clear arch_capabilities\nbugs\t\t: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs\nbogomips\t: 5000.01\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 46 bits physical, 48 bits virtual\npower management:\n\nprocessor\t: 1\nvendor_id\t: GenuineIntel\ncpu family\t: 6\nmodel\t\t: 63\nmodel name\t: Intel(R) Xeon(R) Processor @ 2.50GHz\nstepping\t: 2\nmicrocode\t: 0x1\ncpu MHz\t\t: 2500.008\ncache size\t: 33792 KB\nphysical id\t: 0\nsiblings\t: 2\ncore id\t\t: 1\ncpu cores\t: 2\napicid\t\t: 1\ninitial apicid\t: 1\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 13\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm cpuid_fault invpcid_single pti ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid smap xsaveopt arat md_clear arch_capabilities\nbugs\t\t: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs\nbogomips\t: 5000.01\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 46 bits physical, 48 bits virtual\npower management:\n\n", 
+                "/proc/meminfo": "MemTotal:        1717184 kB\nMemFree:         1112188 kB\nMemAvailable:    1480692 kB\nBuffers:           17200 kB\nCached:           463780 kB\nSwapCached:            0 kB\nActive:            99556 kB\nInactive:         449684 kB\nActive(anon):      66448 kB\nInactive(anon):      216 kB\nActive(file):      33108 kB\nInactive(file):   449468 kB\nUnevictable:           0 kB\nMlocked:               0 kB\nSwapTotal:             0 kB\nSwapFree:              0 kB\nDirty:             48324 kB\nWriteback:             0 kB\nAnonPages:         68236 kB\nMapped:            35244 kB\nShmem:               220 kB\nSlab:              42972 kB\nSReclaimable:      32868 kB\nSUnreclaim:        10104 kB\nKernelStack:        1176 kB\nPageTables:         1420 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:      858592 kB\nCommitted_AS:     253828 kB\nVmallocTotal:   34359738367 kB\nVmallocUsed:           0 kB\nVmallocChunk:          0 kB\nAnonHugePages:         0 kB\nShmemHugePages:        0 kB\nShmemPmdMapped:        0 kB\nHugePages_Total:       0\nHugePages_Free:        0\nHugePages_Rsvd:        0\nHugePages_Surp:        0\nHugepagesize:       2048 kB\nDirectMap4k:       19456 kB\nDirectMap2M:     1742848 kB\n", 
+                "/proc/self/cgroup": "MemTotal:        1717184 kB\nMemFree:         1112188 kB\nMemAvailable:    1480692 kB\nBuffers:           17200 kB\nCached:           463780 kB\nSwapCached:            0 kB\nActive:            99556 kB\nInactive:         449684 kB\nActive(anon):      66448 kB\nInactive(anon):      216 kB\nActive(file):      33108 kB\nInactive(file):   449468 kB\nUnevictable:           0 kB\nMlocked:               0 kB\nSwapTotal:             0 kB\nSwapFree:              0 kB\nDirty:             48324 kB\nWriteback:             0 kB\nAnonPages:         68236 kB\nMapped:            35244 kB\nShmem:               220 kB\nSlab:              42972 kB\nSReclaimable:      32868 kB\nSUnreclaim:        10104 kB\nKernelStack:        1176 kB\nPageTables:         1420 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:      858592 kB\nCommitted_AS:     253828 kB\nVmallocTotal:   34359738367 kB\nVmallocUsed:           0 kB\nVmallocChunk:          0 kB\nAnonHugePages:         0 kB\nShmemHugePages:        0 kB\nShmemPmdMapped:        0 kB\nHugePages_Total:       0\nHugePages_Free:        0\nHugePages_Rsvd:        0\nHugePages_Surp:        0\nHugepagesize:       2048 kB\nDirectMap4k:       19456 kB\nDirectMap2M:     1742848 kB\n", 
+                "uname": "('Linux', '169.254.160.237', '4.14.203-112.332.amzn2.x86_64', '#1 SMP Wed Nov 4 20:46:34 UTC 2020', 'x86_64', 'x86_64')"
+            }, 
+            "setup_time": 9.154216051101685, 
+            "start_time": 1609043949.986768, 
+            "status_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/00002/status.json", 
+            "stdout": ""
+        }, 
+        {
+            "aws_request_id": "ca6fe3bb-365d-46e2-8f07-f9f2c72eb610", 
+            "call_id": "00003", 
+            "callset_id": "dcdb66a3-5b45-44dc-a13a-bd36a3b62702", 
+            "data_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/aggdata.pickle", 
+            "end_time": 1609043970.427034, 
+            "exception": null, 
+            "exec_time": 12.070137977600098, 
+            "free_disk_bytes": 538333184, 
+            "func_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/func.pickle", 
+            "host_submit_time": 1609043949.177691, 
+            "log_group_name": "/aws/lambda/pywren_redis_2", 
+            "log_stream_name": "2020/12/27/[$LATEST]3af14ea37b804325ae3a30be13f08bec", 
+            "output_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/00003/output.pickle", 
+            "retcode": 0, 
+            "runtime_cached": false, 
+            "runtime_s3_bucket_used": "pywren-runtimes-public-us-west-2", 
+            "runtime_s3_key_used": "5445bd-pywren.runtimes/default_2.7.tar.gz.0096", 
+            "server_info": {
+                "/proc/cgroups": "#subsys_name\thierarchy\tnum_cgroups\tenabled\ncpuset\t2\t1\t1\ncpu\t5\t5\t1\ncpuacct\t5\t5\t1\nblkio\t6\t1\t1\nmemory\t8\t5\t1\ndevices\t4\t1\t1\nfreezer\t3\t2\t1\nnet_cls\t9\t1\t1\nperf_event\t11\t1\t1\nnet_prio\t9\t1\t1\nhugetlb\t10\t1\t1\npids\t7\t1\t1\n", 
+                "/proc/cpuinfo": "processor\t: 0\nvendor_id\t: GenuineIntel\ncpu family\t: 6\nmodel\t\t: 63\nmodel name\t: Intel(R) Xeon(R) Processor @ 2.50GHz\nstepping\t: 2\nmicrocode\t: 0x1\ncpu MHz\t\t: 2500.012\ncache size\t: 33792 KB\nphysical id\t: 0\nsiblings\t: 2\ncore id\t\t: 0\ncpu cores\t: 2\napicid\t\t: 0\ninitial apicid\t: 0\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 13\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm cpuid_fault invpcid_single pti ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid smap xsaveopt arat md_clear arch_capabilities\nbugs\t\t: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs\nbogomips\t: 5000.02\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 46 bits physical, 48 bits virtual\npower management:\n\nprocessor\t: 1\nvendor_id\t: GenuineIntel\ncpu family\t: 6\nmodel\t\t: 63\nmodel name\t: Intel(R) Xeon(R) Processor @ 2.50GHz\nstepping\t: 2\nmicrocode\t: 0x1\ncpu MHz\t\t: 2500.012\ncache size\t: 33792 KB\nphysical id\t: 0\nsiblings\t: 2\ncore id\t\t: 1\ncpu cores\t: 2\napicid\t\t: 1\ninitial apicid\t: 1\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 13\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm cpuid_fault invpcid_single pti ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid smap xsaveopt arat md_clear arch_capabilities\nbugs\t\t: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs\nbogomips\t: 5000.02\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 46 bits physical, 48 bits virtual\npower management:\n\n", 
+                "/proc/meminfo": "MemTotal:        1717184 kB\nMemFree:         1113320 kB\nMemAvailable:    1479748 kB\nBuffers:           17148 kB\nCached:           461236 kB\nSwapCached:            0 kB\nActive:           100884 kB\nInactive:         447596 kB\nActive(anon):      67764 kB\nInactive(anon):      216 kB\nActive(file):      33120 kB\nInactive(file):   447380 kB\nUnevictable:           0 kB\nMlocked:               0 kB\nSwapTotal:             0 kB\nSwapFree:              0 kB\nDirty:             10300 kB\nWriteback:             0 kB\nAnonPages:         70076 kB\nMapped:            35076 kB\nShmem:               220 kB\nSlab:              42984 kB\nSReclaimable:      32872 kB\nSUnreclaim:        10112 kB\nKernelStack:        1152 kB\nPageTables:         1436 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:      858592 kB\nCommitted_AS:     253760 kB\nVmallocTotal:   34359738367 kB\nVmallocUsed:           0 kB\nVmallocChunk:          0 kB\nAnonHugePages:         0 kB\nShmemHugePages:        0 kB\nShmemPmdMapped:        0 kB\nHugePages_Total:       0\nHugePages_Free:        0\nHugePages_Rsvd:        0\nHugePages_Surp:        0\nHugepagesize:       2048 kB\nDirectMap4k:       19456 kB\nDirectMap2M:     1742848 kB\n", 
+                "/proc/self/cgroup": "MemTotal:        1717184 kB\nMemFree:         1113320 kB\nMemAvailable:    1479748 kB\nBuffers:           17148 kB\nCached:           461236 kB\nSwapCached:            0 kB\nActive:           100884 kB\nInactive:         447596 kB\nActive(anon):      67764 kB\nInactive(anon):      216 kB\nActive(file):      33120 kB\nInactive(file):   447380 kB\nUnevictable:           0 kB\nMlocked:               0 kB\nSwapTotal:             0 kB\nSwapFree:              0 kB\nDirty:             10300 kB\nWriteback:             0 kB\nAnonPages:         70076 kB\nMapped:            35076 kB\nShmem:               220 kB\nSlab:              42984 kB\nSReclaimable:      32872 kB\nSUnreclaim:        10112 kB\nKernelStack:        1152 kB\nPageTables:         1436 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:      858592 kB\nCommitted_AS:     253760 kB\nVmallocTotal:   34359738367 kB\nVmallocUsed:           0 kB\nVmallocChunk:          0 kB\nAnonHugePages:         0 kB\nShmemHugePages:        0 kB\nShmemPmdMapped:        0 kB\nHugePages_Total:       0\nHugePages_Free:        0\nHugePages_Rsvd:        0\nHugePages_Surp:        0\nHugepagesize:       2048 kB\nDirectMap4k:       19456 kB\nDirectMap2M:     1742848 kB\n", 
+                "uname": "('Linux', '169.254.142.21', '4.14.203-112.332.amzn2.x86_64', '#1 SMP Wed Nov 4 20:46:34 UTC 2020', 'x86_64', 'x86_64')"
+            }, 
+            "setup_time": 8.368774890899658, 
+            "start_time": 1609043949.988126, 
+            "status_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/00003/status.json", 
+            "stdout": ""
+        }, 
+        {
+            "aws_request_id": "2d4fa372-7278-4494-a594-5a0e2cf45676", 
+            "call_id": "00004", 
+            "callset_id": "dcdb66a3-5b45-44dc-a13a-bd36a3b62702", 
+            "data_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/aggdata.pickle", 
+            "end_time": 1609043970.176259, 
+            "exception": null, 
+            "exec_time": 12.092442035675049, 
+            "free_disk_bytes": 538333184, 
+            "func_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/func.pickle", 
+            "host_submit_time": 1609043949.173371, 
+            "log_group_name": "/aws/lambda/pywren_redis_2", 
+            "log_stream_name": "2020/12/27/[$LATEST]b564637aba434d269b73f108de862c7c", 
+            "output_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/00004/output.pickle", 
+            "retcode": 0, 
+            "runtime_cached": false, 
+            "runtime_s3_bucket_used": "pywren-runtimes-public-us-west-2", 
+            "runtime_s3_key_used": "830f4c-pywren.runtimes/default_2.7.tar.gz.0018", 
+            "server_info": {
+                "/proc/cgroups": "#subsys_name\thierarchy\tnum_cgroups\tenabled\ncpuset\t3\t1\t1\ncpu\t5\t5\t1\ncpuacct\t5\t5\t1\nblkio\t9\t1\t1\nmemory\t8\t5\t1\ndevices\t6\t1\t1\nfreezer\t10\t2\t1\nnet_cls\t4\t1\t1\nperf_event\t2\t1\t1\nnet_prio\t4\t1\t1\nhugetlb\t7\t1\t1\npids\t11\t1\t1\n", 
+                "/proc/cpuinfo": "processor\t: 0\nvendor_id\t: GenuineIntel\ncpu family\t: 6\nmodel\t\t: 63\nmodel name\t: Intel(R) Xeon(R) Processor @ 2.50GHz\nstepping\t: 2\nmicrocode\t: 0x1\ncpu MHz\t\t: 2500.012\ncache size\t: 33792 KB\nphysical id\t: 0\nsiblings\t: 2\ncore id\t\t: 0\ncpu cores\t: 2\napicid\t\t: 0\ninitial apicid\t: 0\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 13\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm cpuid_fault invpcid_single pti ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid smap xsaveopt arat md_clear arch_capabilities\nbugs\t\t: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs\nbogomips\t: 5000.02\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 46 bits physical, 48 bits virtual\npower management:\n\nprocessor\t: 1\nvendor_id\t: GenuineIntel\ncpu family\t: 6\nmodel\t\t: 63\nmodel name\t: Intel(R) Xeon(R) Processor @ 2.50GHz\nstepping\t: 2\nmicrocode\t: 0x1\ncpu MHz\t\t: 2500.012\ncache size\t: 33792 KB\nphysical id\t: 0\nsiblings\t: 2\ncore id\t\t: 1\ncpu cores\t: 2\napicid\t\t: 1\ninitial apicid\t: 1\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 13\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm cpuid_fault invpcid_single pti ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid smap xsaveopt arat md_clear arch_capabilities\nbugs\t\t: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs\nbogomips\t: 5000.02\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 46 bits physical, 48 bits virtual\npower management:\n\n", 
+                "/proc/meminfo": "MemTotal:        1717184 kB\nMemFree:         1112572 kB\nMemAvailable:    1482596 kB\nBuffers:           17340 kB\nCached:           464352 kB\nSwapCached:            0 kB\nActive:            98944 kB\nInactive:         450600 kB\nActive(anon):      65224 kB\nInactive(anon):      216 kB\nActive(file):      33720 kB\nInactive(file):   450384 kB\nUnevictable:           0 kB\nMlocked:               0 kB\nSwapTotal:             0 kB\nSwapFree:              0 kB\nDirty:              8876 kB\nWriteback:             0 kB\nAnonPages:         67912 kB\nMapped:            34928 kB\nShmem:               220 kB\nSlab:              42780 kB\nSReclaimable:      32852 kB\nSUnreclaim:         9928 kB\nKernelStack:        1168 kB\nPageTables:         1432 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:      858592 kB\nCommitted_AS:     253816 kB\nVmallocTotal:   34359738367 kB\nVmallocUsed:           0 kB\nVmallocChunk:          0 kB\nAnonHugePages:         0 kB\nShmemHugePages:        0 kB\nShmemPmdMapped:        0 kB\nHugePages_Total:       0\nHugePages_Free:        0\nHugePages_Rsvd:        0\nHugePages_Surp:        0\nHugepagesize:       2048 kB\nDirectMap4k:       23552 kB\nDirectMap2M:     1738752 kB\n", 
+                "/proc/self/cgroup": "MemTotal:        1717184 kB\nMemFree:         1112572 kB\nMemAvailable:    1482596 kB\nBuffers:           17340 kB\nCached:           464352 kB\nSwapCached:            0 kB\nActive:            98944 kB\nInactive:         450600 kB\nActive(anon):      65224 kB\nInactive(anon):      216 kB\nActive(file):      33720 kB\nInactive(file):   450384 kB\nUnevictable:           0 kB\nMlocked:               0 kB\nSwapTotal:             0 kB\nSwapFree:              0 kB\nDirty:              8876 kB\nWriteback:             0 kB\nAnonPages:         67912 kB\nMapped:            34928 kB\nShmem:               220 kB\nSlab:              42780 kB\nSReclaimable:      32852 kB\nSUnreclaim:         9928 kB\nKernelStack:        1168 kB\nPageTables:         1432 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:      858592 kB\nCommitted_AS:     253816 kB\nVmallocTotal:   34359738367 kB\nVmallocUsed:           0 kB\nVmallocChunk:          0 kB\nAnonHugePages:         0 kB\nShmemHugePages:        0 kB\nShmemPmdMapped:        0 kB\nHugePages_Total:       0\nHugePages_Free:        0\nHugePages_Rsvd:        0\nHugePages_Surp:        0\nHugepagesize:       2048 kB\nDirectMap4k:       23552 kB\nDirectMap2M:     1738752 kB\n", 
+                "uname": "('Linux', '169.254.249.165', '4.14.203-112.332.amzn2.x86_64', '#1 SMP Wed Nov 4 20:46:34 UTC 2020', 'x86_64', 'x86_64')"
+            }, 
+            "setup_time": 8.101500034332275, 
+            "start_time": 1609043949.982323, 
+            "status_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/00004/status.json", 
+            "stdout": ""
+        }, 
+        {
+            "aws_request_id": "594fc4fb-cc66-4486-84ce-6b27bbe70621", 
+            "call_id": "00005", 
+            "callset_id": "dcdb66a3-5b45-44dc-a13a-bd36a3b62702", 
+            "data_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/aggdata.pickle", 
+            "end_time": 1609043970.524828, 
+            "exception": null, 
+            "exec_time": 12.081128120422363, 
+            "free_disk_bytes": 538333184, 
+            "func_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/func.pickle", 
+            "host_submit_time": 1609043949.184177, 
+            "log_group_name": "/aws/lambda/pywren_redis_2", 
+            "log_stream_name": "2020/12/27/[$LATEST]25c1c323351142d9a12334400bc95d58", 
+            "output_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/00005/output.pickle", 
+            "retcode": 0, 
+            "runtime_cached": false, 
+            "runtime_s3_bucket_used": "pywren-runtimes-public-us-west-2", 
+            "runtime_s3_key_used": "e2a605-pywren.runtimes/default_2.7.tar.gz.0070", 
+            "server_info": {
+                "/proc/cgroups": "#subsys_name\thierarchy\tnum_cgroups\tenabled\ncpuset\t11\t1\t1\ncpu\t4\t5\t1\ncpuacct\t4\t5\t1\nblkio\t5\t1\t1\nmemory\t2\t5\t1\ndevices\t3\t1\t1\nfreezer\t8\t2\t1\nnet_cls\t7\t1\t1\nperf_event\t6\t1\t1\nnet_prio\t7\t1\t1\nhugetlb\t10\t1\t1\npids\t9\t1\t1\n", 
+                "/proc/cpuinfo": "processor\t: 0\nvendor_id\t: GenuineIntel\ncpu family\t: 6\nmodel\t\t: 63\nmodel name\t: Intel(R) Xeon(R) Processor @ 2.50GHz\nstepping\t: 2\nmicrocode\t: 0x1\ncpu MHz\t\t: 2500.000\ncache size\t: 33792 KB\nphysical id\t: 0\nsiblings\t: 2\ncore id\t\t: 0\ncpu cores\t: 2\napicid\t\t: 0\ninitial apicid\t: 0\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 13\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm cpuid_fault invpcid_single pti ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid smap xsaveopt arat md_clear arch_capabilities\nbugs\t\t: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs\nbogomips\t: 5000.00\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 46 bits physical, 48 bits virtual\npower management:\n\nprocessor\t: 1\nvendor_id\t: GenuineIntel\ncpu family\t: 6\nmodel\t\t: 63\nmodel name\t: Intel(R) Xeon(R) Processor @ 2.50GHz\nstepping\t: 2\nmicrocode\t: 0x1\ncpu MHz\t\t: 2500.000\ncache size\t: 33792 KB\nphysical id\t: 0\nsiblings\t: 2\ncore id\t\t: 1\ncpu cores\t: 2\napicid\t\t: 1\ninitial apicid\t: 1\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 13\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm cpuid_fault invpcid_single pti ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid smap xsaveopt arat md_clear arch_capabilities\nbugs\t\t: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs\nbogomips\t: 5000.00\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 46 bits physical, 48 bits virtual\npower management:\n\n", 
+                "/proc/meminfo": "MemTotal:        1717184 kB\nMemFree:         1108252 kB\nMemAvailable:    1478104 kB\nBuffers:           18804 kB\nCached:           465216 kB\nSwapCached:            0 kB\nActive:           105332 kB\nInactive:         447852 kB\nActive(anon):      69156 kB\nInactive(anon):      216 kB\nActive(file):      36176 kB\nInactive(file):   447636 kB\nUnevictable:           0 kB\nMlocked:               0 kB\nSwapTotal:             0 kB\nSwapFree:              0 kB\nDirty:             10112 kB\nWriteback:             0 kB\nAnonPages:         69152 kB\nMapped:            35280 kB\nShmem:               220 kB\nSlab:              43272 kB\nSReclaimable:      33096 kB\nSUnreclaim:        10176 kB\nKernelStack:        1152 kB\nPageTables:         1364 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:      858592 kB\nCommitted_AS:     253816 kB\nVmallocTotal:   34359738367 kB\nVmallocUsed:           0 kB\nVmallocChunk:          0 kB\nAnonHugePages:         0 kB\nShmemHugePages:        0 kB\nShmemPmdMapped:        0 kB\nHugePages_Total:       0\nHugePages_Free:        0\nHugePages_Rsvd:        0\nHugePages_Surp:        0\nHugepagesize:       2048 kB\nDirectMap4k:       21504 kB\nDirectMap2M:     1740800 kB\n", 
+                "/proc/self/cgroup": "MemTotal:        1717184 kB\nMemFree:         1108252 kB\nMemAvailable:    1478104 kB\nBuffers:           18804 kB\nCached:           465216 kB\nSwapCached:            0 kB\nActive:           105332 kB\nInactive:         447852 kB\nActive(anon):      69156 kB\nInactive(anon):      216 kB\nActive(file):      36176 kB\nInactive(file):   447636 kB\nUnevictable:           0 kB\nMlocked:               0 kB\nSwapTotal:             0 kB\nSwapFree:              0 kB\nDirty:             10112 kB\nWriteback:             0 kB\nAnonPages:         69152 kB\nMapped:            35280 kB\nShmem:               220 kB\nSlab:              43272 kB\nSReclaimable:      33096 kB\nSUnreclaim:        10176 kB\nKernelStack:        1152 kB\nPageTables:         1364 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:      858592 kB\nCommitted_AS:     253816 kB\nVmallocTotal:   34359738367 kB\nVmallocUsed:           0 kB\nVmallocChunk:          0 kB\nAnonHugePages:         0 kB\nShmemHugePages:        0 kB\nShmemPmdMapped:        0 kB\nHugePages_Total:       0\nHugePages_Free:        0\nHugePages_Rsvd:        0\nHugePages_Surp:        0\nHugepagesize:       2048 kB\nDirectMap4k:       21504 kB\nDirectMap2M:     1740800 kB\n", 
+                "uname": "('Linux', '169.254.193.141', '4.14.203-112.332.amzn2.x86_64', '#1 SMP Wed Nov 4 20:46:34 UTC 2020', 'x86_64', 'x86_64')"
+            }, 
+            "setup_time": 8.44308590888977, 
+            "start_time": 1609043950.000621, 
+            "status_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/00005/status.json", 
+            "stdout": ""
+        }, 
+        {
+            "aws_request_id": "33cf1020-9354-4fa0-a428-11694b1f0a8c", 
+            "call_id": "00006", 
+            "callset_id": "dcdb66a3-5b45-44dc-a13a-bd36a3b62702", 
+            "data_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/aggdata.pickle", 
+            "end_time": 1609043970.29629, 
+            "exception": null, 
+            "exec_time": 12.112399101257324, 
+            "free_disk_bytes": 538333184, 
+            "func_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/func.pickle", 
+            "host_submit_time": 1609043949.19629, 
+            "log_group_name": "/aws/lambda/pywren_redis_2", 
+            "log_stream_name": "2020/12/27/[$LATEST]94523596bc404392a46bdb1bd019d9ab", 
+            "output_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/00006/output.pickle", 
+            "retcode": 0, 
+            "runtime_cached": false, 
+            "runtime_s3_bucket_used": "pywren-runtimes-public-us-west-2", 
+            "runtime_s3_key_used": "fc9684-pywren.runtimes/default_2.7.tar.gz.0061", 
+            "server_info": {
+                "/proc/cgroups": "#subsys_name\thierarchy\tnum_cgroups\tenabled\ncpuset\t11\t1\t1\ncpu\t5\t5\t1\ncpuacct\t5\t5\t1\nblkio\t10\t1\t1\nmemory\t4\t5\t1\ndevices\t9\t1\t1\nfreezer\t2\t2\t1\nnet_cls\t8\t1\t1\nperf_event\t7\t1\t1\nnet_prio\t8\t1\t1\nhugetlb\t3\t1\t1\npids\t6\t1\t1\n", 
+                "/proc/cpuinfo": "processor\t: 0\nvendor_id\t: GenuineIntel\ncpu family\t: 6\nmodel\t\t: 63\nmodel name\t: Intel(R) Xeon(R) Processor @ 2.50GHz\nstepping\t: 2\nmicrocode\t: 0x1\ncpu MHz\t\t: 2500.014\ncache size\t: 33792 KB\nphysical id\t: 0\nsiblings\t: 2\ncore id\t\t: 0\ncpu cores\t: 2\napicid\t\t: 0\ninitial apicid\t: 0\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 13\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm cpuid_fault invpcid_single pti ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid smap xsaveopt arat md_clear arch_capabilities\nbugs\t\t: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs\nbogomips\t: 5000.02\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 46 bits physical, 48 bits virtual\npower management:\n\nprocessor\t: 1\nvendor_id\t: GenuineIntel\ncpu family\t: 6\nmodel\t\t: 63\nmodel name\t: Intel(R) Xeon(R) Processor @ 2.50GHz\nstepping\t: 2\nmicrocode\t: 0x1\ncpu MHz\t\t: 2500.014\ncache size\t: 33792 KB\nphysical id\t: 0\nsiblings\t: 2\ncore id\t\t: 1\ncpu cores\t: 2\napicid\t\t: 1\ninitial apicid\t: 1\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 13\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm cpuid_fault invpcid_single pti ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid smap xsaveopt arat md_clear arch_capabilities\nbugs\t\t: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs\nbogomips\t: 5000.02\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 46 bits physical, 48 bits virtual\npower management:\n\n", 
+                "/proc/meminfo": "MemTotal:        1717184 kB\nMemFree:         1117268 kB\nMemAvailable:    1479744 kB\nBuffers:           14876 kB\nCached:           461664 kB\nSwapCached:            0 kB\nActive:            97764 kB\nInactive:         446200 kB\nActive(anon):      67240 kB\nInactive(anon):      216 kB\nActive(file):      30524 kB\nInactive(file):   445984 kB\nUnevictable:           0 kB\nMlocked:               0 kB\nSwapTotal:             0 kB\nSwapFree:              0 kB\nDirty:              9296 kB\nWriteback:             0 kB\nAnonPages:         67412 kB\nMapped:            34248 kB\nShmem:               220 kB\nSlab:              42924 kB\nSReclaimable:      32952 kB\nSUnreclaim:         9972 kB\nKernelStack:        1152 kB\nPageTables:         1348 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:      858592 kB\nCommitted_AS:     253828 kB\nVmallocTotal:   34359738367 kB\nVmallocUsed:           0 kB\nVmallocChunk:          0 kB\nAnonHugePages:         0 kB\nShmemHugePages:        0 kB\nShmemPmdMapped:        0 kB\nHugePages_Total:       0\nHugePages_Free:        0\nHugePages_Rsvd:        0\nHugePages_Surp:        0\nHugepagesize:       2048 kB\nDirectMap4k:       23552 kB\nDirectMap2M:     1738752 kB\n", 
+                "/proc/self/cgroup": "MemTotal:        1717184 kB\nMemFree:         1117268 kB\nMemAvailable:    1479744 kB\nBuffers:           14876 kB\nCached:           461664 kB\nSwapCached:            0 kB\nActive:            97764 kB\nInactive:         446200 kB\nActive(anon):      67240 kB\nInactive(anon):      216 kB\nActive(file):      30524 kB\nInactive(file):   445984 kB\nUnevictable:           0 kB\nMlocked:               0 kB\nSwapTotal:             0 kB\nSwapFree:              0 kB\nDirty:              9296 kB\nWriteback:             0 kB\nAnonPages:         67412 kB\nMapped:            34248 kB\nShmem:               220 kB\nSlab:              42924 kB\nSReclaimable:      32952 kB\nSUnreclaim:         9972 kB\nKernelStack:        1152 kB\nPageTables:         1348 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:      858592 kB\nCommitted_AS:     253828 kB\nVmallocTotal:   34359738367 kB\nVmallocUsed:           0 kB\nVmallocChunk:          0 kB\nAnonHugePages:         0 kB\nShmemHugePages:        0 kB\nShmemPmdMapped:        0 kB\nHugePages_Total:       0\nHugePages_Free:        0\nHugePages_Rsvd:        0\nHugePages_Surp:        0\nHugepagesize:       2048 kB\nDirectMap4k:       23552 kB\nDirectMap2M:     1738752 kB\n", 
+                "uname": "('Linux', '169.254.8.49', '4.14.203-112.332.amzn2.x86_64', '#1 SMP Wed Nov 4 20:46:34 UTC 2020', 'x86_64', 'x86_64')"
+            }, 
+            "setup_time": 8.214267015457153, 
+            "start_time": 1609043949.969631, 
+            "status_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/00006/status.json", 
+            "stdout": ""
+        }, 
+        {
+            "aws_request_id": "b91bd7fb-20fe-489c-a9b9-c55a11b86b06", 
+            "call_id": "00007", 
+            "callset_id": "dcdb66a3-5b45-44dc-a13a-bd36a3b62702", 
+            "data_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/aggdata.pickle", 
+            "end_time": 1609043970.597999, 
+            "exception": null, 
+            "exec_time": 12.067629098892212, 
+            "free_disk_bytes": 538333184, 
+            "func_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/func.pickle", 
+            "host_submit_time": 1609043949.188127, 
+            "log_group_name": "/aws/lambda/pywren_redis_2", 
+            "log_stream_name": "2020/12/27/[$LATEST]1a9795057a2c493fbede6f1f79b11726", 
+            "output_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/00007/output.pickle", 
+            "retcode": 0, 
+            "runtime_cached": false, 
+            "runtime_s3_bucket_used": "pywren-runtimes-public-us-west-2", 
+            "runtime_s3_key_used": "7da364-pywren.runtimes/default_2.7.tar.gz.0055", 
+            "server_info": {
+                "/proc/cgroups": "#subsys_name\thierarchy\tnum_cgroups\tenabled\ncpuset\t5\t1\t1\ncpu\t2\t5\t1\ncpuacct\t2\t5\t1\nblkio\t4\t1\t1\nmemory\t7\t5\t1\ndevices\t8\t1\t1\nfreezer\t11\t2\t1\nnet_cls\t9\t1\t1\nperf_event\t10\t1\t1\nnet_prio\t9\t1\t1\nhugetlb\t6\t1\t1\npids\t3\t1\t1\n", 
+                "/proc/cpuinfo": "processor\t: 0\nvendor_id\t: GenuineIntel\ncpu family\t: 6\nmodel\t\t: 63\nmodel name\t: Intel(R) Xeon(R) Processor @ 2.50GHz\nstepping\t: 2\nmicrocode\t: 0x1\ncpu MHz\t\t: 2500.008\ncache size\t: 33792 KB\nphysical id\t: 0\nsiblings\t: 2\ncore id\t\t: 0\ncpu cores\t: 2\napicid\t\t: 0\ninitial apicid\t: 0\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 13\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm cpuid_fault invpcid_single pti ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid smap xsaveopt arat md_clear arch_capabilities\nbugs\t\t: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs\nbogomips\t: 5000.01\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 46 bits physical, 48 bits virtual\npower management:\n\nprocessor\t: 1\nvendor_id\t: GenuineIntel\ncpu family\t: 6\nmodel\t\t: 63\nmodel name\t: Intel(R) Xeon(R) Processor @ 2.50GHz\nstepping\t: 2\nmicrocode\t: 0x1\ncpu MHz\t\t: 2500.008\ncache size\t: 33792 KB\nphysical id\t: 0\nsiblings\t: 2\ncore id\t\t: 1\ncpu cores\t: 2\napicid\t\t: 1\ninitial apicid\t: 1\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 13\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm cpuid_fault invpcid_single pti ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid smap xsaveopt arat md_clear arch_capabilities\nbugs\t\t: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs\nbogomips\t: 5000.01\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 46 bits physical, 48 bits virtual\npower management:\n\n", 
+                "/proc/meminfo": "MemTotal:        1717184 kB\nMemFree:         1107400 kB\nMemAvailable:    1476524 kB\nBuffers:           17072 kB\nCached:           464488 kB\nSwapCached:            0 kB\nActive:           105188 kB\nInactive:         449000 kB\nActive(anon):      70812 kB\nInactive(anon):      216 kB\nActive(file):      34376 kB\nInactive(file):   448784 kB\nUnevictable:           0 kB\nMlocked:               0 kB\nSwapTotal:             0 kB\nSwapFree:              0 kB\nDirty:              9060 kB\nWriteback:             0 kB\nAnonPages:         72608 kB\nMapped:            34672 kB\nShmem:               220 kB\nSlab:              43196 kB\nSReclaimable:      32940 kB\nSUnreclaim:        10256 kB\nKernelStack:        1168 kB\nPageTables:         1432 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:      858592 kB\nCommitted_AS:     253740 kB\nVmallocTotal:   34359738367 kB\nVmallocUsed:           0 kB\nVmallocChunk:          0 kB\nAnonHugePages:         0 kB\nShmemHugePages:        0 kB\nShmemPmdMapped:        0 kB\nHugePages_Total:       0\nHugePages_Free:        0\nHugePages_Rsvd:        0\nHugePages_Surp:        0\nHugepagesize:       2048 kB\nDirectMap4k:       21504 kB\nDirectMap2M:     1740800 kB\n", 
+                "/proc/self/cgroup": "MemTotal:        1717184 kB\nMemFree:         1107400 kB\nMemAvailable:    1476524 kB\nBuffers:           17072 kB\nCached:           464488 kB\nSwapCached:            0 kB\nActive:           105188 kB\nInactive:         449000 kB\nActive(anon):      70812 kB\nInactive(anon):      216 kB\nActive(file):      34376 kB\nInactive(file):   448784 kB\nUnevictable:           0 kB\nMlocked:               0 kB\nSwapTotal:             0 kB\nSwapFree:              0 kB\nDirty:              9060 kB\nWriteback:             0 kB\nAnonPages:         72608 kB\nMapped:            34672 kB\nShmem:               220 kB\nSlab:              43196 kB\nSReclaimable:      32940 kB\nSUnreclaim:        10256 kB\nKernelStack:        1168 kB\nPageTables:         1432 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:      858592 kB\nCommitted_AS:     253740 kB\nVmallocTotal:   34359738367 kB\nVmallocUsed:           0 kB\nVmallocChunk:          0 kB\nAnonHugePages:         0 kB\nShmemHugePages:        0 kB\nShmemPmdMapped:        0 kB\nHugePages_Total:       0\nHugePages_Free:        0\nHugePages_Rsvd:        0\nHugePages_Surp:        0\nHugepagesize:       2048 kB\nDirectMap4k:       21504 kB\nDirectMap2M:     1740800 kB\n", 
+                "uname": "('Linux', '169.254.176.29', '4.14.203-112.332.amzn2.x86_64', '#1 SMP Wed Nov 4 20:46:34 UTC 2020', 'x86_64', 'x86_64')"
+            }, 
+            "setup_time": 8.553148984909058, 
+            "start_time": 1609043949.977227, 
+            "status_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/00007/status.json", 
+            "stdout": ""
+        }, 
+        {
+            "aws_request_id": "14006e57-0928-42f2-8432-6198271fc9ff", 
+            "call_id": "00008", 
+            "callset_id": "dcdb66a3-5b45-44dc-a13a-bd36a3b62702", 
+            "data_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/aggdata.pickle", 
+            "end_time": 1609043971.585961, 
+            "exception": null, 
+            "exec_time": 12.108469009399414, 
+            "free_disk_bytes": 538333184, 
+            "func_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/func.pickle", 
+            "host_submit_time": 1609043949.194872, 
+            "log_group_name": "/aws/lambda/pywren_redis_2", 
+            "log_stream_name": "2020/12/27/[$LATEST]c9e7fe044a65481d9518db023d5141f0", 
+            "output_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/00008/output.pickle", 
+            "retcode": 0, 
+            "runtime_cached": false, 
+            "runtime_s3_bucket_used": "pywren-runtimes-public-us-west-2", 
+            "runtime_s3_key_used": "f92bca-pywren.runtimes/default_2.7.tar.gz.0036", 
+            "server_info": {
+                "/proc/cgroups": "#subsys_name\thierarchy\tnum_cgroups\tenabled\ncpuset\t10\t1\t1\ncpu\t3\t5\t1\ncpuacct\t3\t5\t1\nblkio\t7\t1\t1\nmemory\t8\t5\t1\ndevices\t11\t1\t1\nfreezer\t4\t2\t1\nnet_cls\t6\t1\t1\nperf_event\t2\t1\t1\nnet_prio\t6\t1\t1\nhugetlb\t5\t1\t1\npids\t9\t1\t1\n", 
+                "/proc/cpuinfo": "processor\t: 0\nvendor_id\t: GenuineIntel\ncpu family\t: 6\nmodel\t\t: 63\nmodel name\t: Intel(R) Xeon(R) Processor @ 2.50GHz\nstepping\t: 2\nmicrocode\t: 0x1\ncpu MHz\t\t: 2500.014\ncache size\t: 33792 KB\nphysical id\t: 0\nsiblings\t: 2\ncore id\t\t: 0\ncpu cores\t: 2\napicid\t\t: 0\ninitial apicid\t: 0\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 13\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm cpuid_fault invpcid_single pti ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid smap xsaveopt arat md_clear arch_capabilities\nbugs\t\t: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs\nbogomips\t: 5000.02\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 46 bits physical, 48 bits virtual\npower management:\n\nprocessor\t: 1\nvendor_id\t: GenuineIntel\ncpu family\t: 6\nmodel\t\t: 63\nmodel name\t: Intel(R) Xeon(R) Processor @ 2.50GHz\nstepping\t: 2\nmicrocode\t: 0x1\ncpu MHz\t\t: 2500.014\ncache size\t: 33792 KB\nphysical id\t: 0\nsiblings\t: 2\ncore id\t\t: 1\ncpu cores\t: 2\napicid\t\t: 1\ninitial apicid\t: 1\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 13\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm cpuid_fault invpcid_single pti ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid smap xsaveopt arat md_clear arch_capabilities\nbugs\t\t: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs\nbogomips\t: 5000.02\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 46 bits physical, 48 bits virtual\npower management:\n\n", 
+                "/proc/meminfo": "MemTotal:        1717184 kB\nMemFree:         1105556 kB\nMemAvailable:    1477964 kB\nBuffers:           17244 kB\nCached:           464064 kB\nSwapCached:            0 kB\nActive:           103144 kB\nInactive:         453224 kB\nActive(anon):      69724 kB\nInactive(anon):      216 kB\nActive(file):      33420 kB\nInactive(file):   453008 kB\nUnevictable:           0 kB\nMlocked:               0 kB\nSwapTotal:             0 kB\nSwapFree:              0 kB\nDirty:             98604 kB\nWriteback:             0 kB\nAnonPages:         75048 kB\nMapped:            35296 kB\nShmem:               220 kB\nSlab:              42824 kB\nSReclaimable:      32972 kB\nSUnreclaim:         9852 kB\nKernelStack:        1152 kB\nPageTables:         1420 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:      858592 kB\nCommitted_AS:     252612 kB\nVmallocTotal:   34359738367 kB\nVmallocUsed:           0 kB\nVmallocChunk:          0 kB\nAnonHugePages:         0 kB\nShmemHugePages:        0 kB\nShmemPmdMapped:        0 kB\nHugePages_Total:       0\nHugePages_Free:        0\nHugePages_Rsvd:        0\nHugePages_Surp:        0\nHugepagesize:       2048 kB\nDirectMap4k:       23552 kB\nDirectMap2M:     1738752 kB\n", 
+                "/proc/self/cgroup": "MemTotal:        1717184 kB\nMemFree:         1105556 kB\nMemAvailable:    1477964 kB\nBuffers:           17244 kB\nCached:           464064 kB\nSwapCached:            0 kB\nActive:           103144 kB\nInactive:         453224 kB\nActive(anon):      69724 kB\nInactive(anon):      216 kB\nActive(file):      33420 kB\nInactive(file):   453008 kB\nUnevictable:           0 kB\nMlocked:               0 kB\nSwapTotal:             0 kB\nSwapFree:              0 kB\nDirty:             98604 kB\nWriteback:             0 kB\nAnonPages:         75048 kB\nMapped:            35296 kB\nShmem:               220 kB\nSlab:              42824 kB\nSReclaimable:      32972 kB\nSUnreclaim:         9852 kB\nKernelStack:        1152 kB\nPageTables:         1420 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:      858592 kB\nCommitted_AS:     252612 kB\nVmallocTotal:   34359738367 kB\nVmallocUsed:           0 kB\nVmallocChunk:          0 kB\nAnonHugePages:         0 kB\nShmemHugePages:        0 kB\nShmemPmdMapped:        0 kB\nHugePages_Total:       0\nHugePages_Free:        0\nHugePages_Rsvd:        0\nHugePages_Surp:        0\nHugepagesize:       2048 kB\nDirectMap4k:       23552 kB\nDirectMap2M:     1738752 kB\n", 
+                "uname": "('Linux', '169.254.180.141', '4.14.203-112.332.amzn2.x86_64', '#1 SMP Wed Nov 4 20:46:34 UTC 2020', 'x86_64', 'x86_64')"
+            }, 
+            "setup_time": 9.499197959899902, 
+            "start_time": 1609043949.978301, 
+            "status_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/00008/status.json", 
+            "stdout": ""
+        }, 
+        {
+            "aws_request_id": "120d633b-abe8-48f9-9892-d3ddc3ae7c05", 
+            "call_id": "00009", 
+            "callset_id": "dcdb66a3-5b45-44dc-a13a-bd36a3b62702", 
+            "data_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/aggdata.pickle", 
+            "end_time": 1609043970.232569, 
+            "exception": null, 
+            "exec_time": 12.069142818450928, 
+            "free_disk_bytes": 538333184, 
+            "func_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/func.pickle", 
+            "host_submit_time": 1609043949.203651, 
+            "log_group_name": "/aws/lambda/pywren_redis_2", 
+            "log_stream_name": "2020/12/27/[$LATEST]1fa45bbefe8541d18b74b55f93d3d94f", 
+            "output_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/00009/output.pickle", 
+            "retcode": 0, 
+            "runtime_cached": false, 
+            "runtime_s3_bucket_used": "pywren-runtimes-public-us-west-2", 
+            "runtime_s3_key_used": "7d9958-pywren.runtimes/default_2.7.tar.gz.0030", 
+            "server_info": {
+                "/proc/cgroups": "#subsys_name\thierarchy\tnum_cgroups\tenabled\ncpuset\t9\t1\t1\ncpu\t3\t5\t1\ncpuacct\t3\t5\t1\nblkio\t5\t1\t1\nmemory\t10\t5\t1\ndevices\t7\t1\t1\nfreezer\t8\t2\t1\nnet_cls\t6\t1\t1\nperf_event\t2\t1\t1\nnet_prio\t6\t1\t1\nhugetlb\t11\t1\t1\npids\t4\t1\t1\n", 
+                "/proc/cpuinfo": "processor\t: 0\nvendor_id\t: GenuineIntel\ncpu family\t: 6\nmodel\t\t: 63\nmodel name\t: Intel(R) Xeon(R) Processor @ 2.50GHz\nstepping\t: 2\nmicrocode\t: 0x1\ncpu MHz\t\t: 2500.010\ncache size\t: 36608 KB\nphysical id\t: 0\nsiblings\t: 2\ncore id\t\t: 0\ncpu cores\t: 2\napicid\t\t: 0\ninitial apicid\t: 0\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 13\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm cpuid_fault invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid smap xsaveopt arat md_clear arch_capabilities\nbugs\t\t: spectre_v1 spectre_v2 spec_store_bypass swapgs\nbogomips\t: 5000.02\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 46 bits physical, 48 bits virtual\npower management:\n\nprocessor\t: 1\nvendor_id\t: GenuineIntel\ncpu family\t: 6\nmodel\t\t: 63\nmodel name\t: Intel(R) Xeon(R) Processor @ 2.50GHz\nstepping\t: 2\nmicrocode\t: 0x1\ncpu MHz\t\t: 2500.010\ncache size\t: 36608 KB\nphysical id\t: 0\nsiblings\t: 2\ncore id\t\t: 1\ncpu cores\t: 2\napicid\t\t: 1\ninitial apicid\t: 1\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 13\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm cpuid_fault invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid smap xsaveopt arat md_clear arch_capabilities\nbugs\t\t: spectre_v1 spectre_v2 spec_store_bypass swapgs\nbogomips\t: 5000.02\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 46 bits physical, 48 bits virtual\npower management:\n\n", 
+                "/proc/meminfo": "MemTotal:        1717184 kB\nMemFree:         1111244 kB\nMemAvailable:    1478140 kB\nBuffers:           17248 kB\nCached:           463988 kB\nSwapCached:            0 kB\nActive:           103364 kB\nInactive:         447620 kB\nActive(anon):      69748 kB\nInactive(anon):      216 kB\nActive(file):      33616 kB\nInactive(file):   447404 kB\nUnevictable:           0 kB\nMlocked:               0 kB\nSwapTotal:             0 kB\nSwapFree:              0 kB\nDirty:              9312 kB\nWriteback:             0 kB\nAnonPages:         69744 kB\nMapped:            35088 kB\nShmem:               220 kB\nSlab:              42628 kB\nSReclaimable:      32768 kB\nSUnreclaim:         9860 kB\nKernelStack:        1152 kB\nPageTables:         1348 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:      858592 kB\nCommitted_AS:     253428 kB\nVmallocTotal:   34359738367 kB\nVmallocUsed:           0 kB\nVmallocChunk:          0 kB\nAnonHugePages:         0 kB\nShmemHugePages:        0 kB\nShmemPmdMapped:        0 kB\nHugePages_Total:       0\nHugePages_Free:        0\nHugePages_Rsvd:        0\nHugePages_Surp:        0\nHugepagesize:       2048 kB\nDirectMap4k:       21504 kB\nDirectMap2M:     1740800 kB\n", 
+                "/proc/self/cgroup": "MemTotal:        1717184 kB\nMemFree:         1111244 kB\nMemAvailable:    1478140 kB\nBuffers:           17248 kB\nCached:           463988 kB\nSwapCached:            0 kB\nActive:           103364 kB\nInactive:         447620 kB\nActive(anon):      69748 kB\nInactive(anon):      216 kB\nActive(file):      33616 kB\nInactive(file):   447404 kB\nUnevictable:           0 kB\nMlocked:               0 kB\nSwapTotal:             0 kB\nSwapFree:              0 kB\nDirty:              9312 kB\nWriteback:             0 kB\nAnonPages:         69744 kB\nMapped:            35088 kB\nShmem:               220 kB\nSlab:              42628 kB\nSReclaimable:      32768 kB\nSUnreclaim:         9860 kB\nKernelStack:        1152 kB\nPageTables:         1348 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:      858592 kB\nCommitted_AS:     253428 kB\nVmallocTotal:   34359738367 kB\nVmallocUsed:           0 kB\nVmallocChunk:          0 kB\nAnonHugePages:         0 kB\nShmemHugePages:        0 kB\nShmemPmdMapped:        0 kB\nHugePages_Total:       0\nHugePages_Free:        0\nHugePages_Rsvd:        0\nHugePages_Surp:        0\nHugepagesize:       2048 kB\nDirectMap4k:       21504 kB\nDirectMap2M:     1740800 kB\n", 
+                "uname": "('Linux', '169.254.165.117', '4.14.203-112.332.amzn2.x86_64', '#1 SMP Wed Nov 4 20:46:34 UTC 2020', 'x86_64', 'x86_64')"
+            }, 
+            "setup_time": 8.212329149246216, 
+            "start_time": 1609043949.951104, 
+            "status_key": "pywren.jobs/dcdb66a3-5b45-44dc-a13a-bd36a3b62702/00009/status.json", 
+            "stdout": ""
+        }
+    ]
+}
