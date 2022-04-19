@@ -144,7 +144,7 @@ def cli():
 @click.option('--number', help='number of files', type=int)
 @click.option('--key_prefix', default='', help='Object key prefix')
 def write_command(backend, storage, mb_per_file, bucket_name, number, key_prefix):
-    auth = oss2.Auth('LTAI5tS23gcp1aHQQaLdwH7r', 'klrCqzQXUv1egCRN5FTUykMJumJw6R')
+    auth = oss2.Auth('', '')
     region = 'https://oss-cn-hangzhou.aliyuncs.com'
     res_write = write(backend, storage, bucket_name, mb_per_file, number, key_prefix, auth, region)
     print(res_write)
