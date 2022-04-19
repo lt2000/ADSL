@@ -1,0 +1,3 @@
+lithops-data/obj1.txt
+lithops-data/obj2.txt
+lithops-data/obj3.txt
