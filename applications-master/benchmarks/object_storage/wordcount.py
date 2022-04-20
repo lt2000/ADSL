@@ -14,14 +14,13 @@
 # limitations under the License.
 #
 
-from asyncio import streams
+from re import T
 from typing import Counter
 import time
 import pickle
 import hashlib
-from io import BytesIO
 import click
-
+import json
 from lithops import FunctionExecutor
 
 
@@ -43,18 +42,20 @@ def mapper(backend, storage, bucket_name, intermediate_bucket_name, num_reducers
         fileobj = storage.get_object(bucket_name, key_name, stream=True)
         data = fileobj.read()
         t2 = time.time()
-        wlist=[]
-        blist=[]
+        
         for line in data.splitlines():
-            for word in line.decode('utf-8').split():
-                wlist.append(word)
-                digset = hashlib.md5(word.encode('utf-8')).hexdigest()
-                w = int(digset, 16)
-                bucket = hash(w) % num_reducers
-                blist.append(bucket)
-                bucket_dict = output_buckets[bucket]
-                bucket_dict[word] += 1
-
+            
+            try:
+                for word in json.loads(line.decode('utf-8'))['reviewText'].split():
+                    digset = hashlib.md5(word.encode('utf-8')).hexdigest()
+                    w = int(digset, 16)
+                    bucket = hash(w) % num_reducers
+                    
+                    bucket_dict = output_buckets[bucket]
+                    bucket_dict[word] += 1
+            except Exception as e:
+                pass
+                
         t3 = time.time()
         my_worker_id = map_ids[key_name]
         for idx in range(0, num_reducers):
@@ -62,8 +63,10 @@ def mapper(backend, storage, bucket_name, intermediate_bucket_name, num_reducers
             d = pickle.dumps(output_buckets[idx])
             storage.put_object(intermediate_bucket_name, key, d)
         t4 = time.time()
-
-        return [{str(my_worker_id): [wlist,blist]}, output_buckets]
+        read_input_time = t2 -t1
+        split__time = t3 -t2
+        shuffle_time = t4 - t3
+        return {'Read Input Time': read_input_time, 'Split Time': split__time, 'Shuffle Time': shuffle_time}
 
     fexec = FunctionExecutor(backend=backend, storage=storage, runtime_memory=512)
     fexec.map(split_count, keynames)
@@ -80,25 +83,30 @@ def reducer(backend, storage, bucket_name, intermediate_bucket_name, num_mappers
 
     def merge_count(worker_id, storage):
         word_count_dict = Counter({})
-        dlist=[]
-        elist=[]
+        shuffle_time = 0
+        merge_time = 0
         for idx in range(0, num_mappers):
             try:
+                t1 = time.time()
                 key = shuffle_key_prefix + '_' + str(idx) + '_' + str(worker_id)
                 fileobj = storage.get_object(intermediate_bucket_name, key, stream=True)
+                t2 = time.time()
                 d = pickle.loads(fileobj.read())
-                dlist.append(d)
                 merge_counters(word_count_dict, d)
+                t3 = time.time()
             except Exception as e:
                 print("except:",e)
-                elist.append(e)
-        
+            shuffle_time += (t2- t1)
+            merge_time += (t3 - t2)
+        t1 = time.time()
         key = shuffle_key_prefix + '_' + str(worker_id)
         d = pickle.dumps(word_count_dict)
         storage.put_object(bucket_name, key, d)
+        t2 = time.time()
+        write_output_time = t2 -t1
+        #return {str(worker_id): word_count_dict}
+        return {'Write Output Time': write_output_time, 'Merge Time': merge_time, 'Shuffle Time': shuffle_time}
 
-        return {str(worker_id): [dlist,elist]}, word_count_dict
-    
     fexec = FunctionExecutor(backend=backend, storage=storage, runtime_memory=512)
     fexec.map(merge_count, range(num_reducers))
     res = fexec.get_result()
@@ -136,8 +144,11 @@ def wordcount(backend, storage, bucket_name, intermediate_bucket_name, input_key
         raise ValueError('You must provide a bucket name within --bucket_name parameter')
     res_map = mapper(backend, storage, bucket_name, intermediate_bucket_name, num_reducers, 
                      shuffle_key_prefix, keynames)
-    # print('intermediate results...')
-    # print(res_map)
+    print('intermediate results...')
+    with open('map_runtime_breakdown.json', 'w') as f:
+        for idx in range(len(res_map)):
+            json_str = json.dumps(res_map[idx])
+            f.write(json_str + '\n')
 
     print('Sleeping 5 seconds...')
     time.sleep(5)
@@ -145,7 +156,10 @@ def wordcount(backend, storage, bucket_name, intermediate_bucket_name, input_key
     res_reduce = reducer(backend, storage, bucket_name, intermediate_bucket_name, num_mappers, 
                          num_reducers, shuffle_key_prefix)
     print('wordcount results...')
-    print(res_reduce)
+    with open('reduce_runtime_breakdown.json', 'w') as f:
+        for idx in range(len(res_reduce)):
+            json_str = json.dumps(res_reduce[idx])
+            f.write(json_str + '\n')
 
 if __name__ == '__main__':
     cli()
