@@ -21,7 +21,7 @@ import pickle
 import hashlib
 import click
 import json
-from lithops import FunctionExecutor
+from lithops import FunctionExecutor, Storage
 
 
 
@@ -113,6 +113,10 @@ def reducer(backend, storage, bucket_name, intermediate_bucket_name, num_mappers
 
     return res
 
+def delete_temp_data(storage, bucket_name, keynames):
+    storage = Storage(backend=storage)
+    storage.delete_objects(bucket_name, keynames)
+    
 
 @click.group()
 def cli():
@@ -160,6 +164,19 @@ def wordcount(backend, storage, bucket_name, intermediate_bucket_name, input_key
         for idx in range(len(res_reduce)):
             json_str = json.dumps(res_reduce[idx])
             f.write(json_str + '\n')
+
+    print("Delete Intermediate Data...")       
+    for i in range(num_mappers):
+        keynames = []
+        for j in range(num_reducers):
+            keynames.append('word_count_shuffle_'+ str(i) +'_'+ str(j))
+        delete_temp_data(storage, intermediate_bucket_name, keynames)   
+    keynames = []
+    print('Delete Output...')
+    for i in range(num_reducers):
+        keynames.append('word_count_shuffle_'+ str(i))
+    delete_temp_data(storage, bucket_name, keynames)   
+       
 
 if __name__ == '__main__':
     cli()
