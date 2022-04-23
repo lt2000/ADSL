@@ -64,8 +64,11 @@ def create_agg_bdwth_plot(res_write, res_read, dst):
         runtime_bins = np.linspace(0, max_seconds, max_seconds)
 
         mb_rates_hist = compute_times_rates(start_time, mb_rates)
+        gb_rates = mb_rates_hist['runtime_rate_hist'].sum(axis=0)/1000
+        ax.plot(gb_rates, label=l, c=c)
+        with open('./bandwidth.txt', 'a+') as f:
+            f.write(l + ':' + str(max(gb_rates)) + '\n')
 
-        ax.plot(mb_rates_hist['runtime_rate_hist'].sum(axis=0)/1000, label=l, c=c)
 
     ax.set_xlabel('Execution Time (sec)')
     ax.set_ylabel("GB/sec")

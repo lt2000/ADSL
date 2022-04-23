@@ -110,30 +110,26 @@ class RandomDataGenerator(object):
 runtime_bins = np.linspace(0, 50, 50)
 
 
-def write(backend, storage, bucket_name, kb_per_work, number, files, key_prefix):
+def write(backend, storage, bucket_name, kb_per_worker, number, files, key_prefix):
 
-    def write_object(key_name, storage):
-        bytes_n = kb_per_work * 1024
+    def write_object(work_id, storage):
+        bytes_n = kb_per_worker * 1024
         d = RandomDataGenerator(bytes_n)
         start_time = time.time()
-        for idx in range(len(key_name)):
-            storage.put_object(bucket_name, key_name[idx], d.read(bytes_n//len(key_name)))
+        for idx in range(files):
+            key = key_prefix + '_' + str(work_id) + '_' + str(idx)
+            storage.put_object(bucket_name, key, d.read(bytes_n//files))
         end_time = time.time()
 
-        mb_rate = (bytes_n * files) /(end_time-start_time)/1e6
+        mb_rate = bytes_n /(end_time-start_time)/1e6
         print('MB Rate: '+str(mb_rate))
 
         return {'start_time': start_time, 'end_time': end_time, 'mb_rate': mb_rate}
-
-    # create list of random keys
-    keynames = []
-    for unused in range(number):
-        keynames.append([key_prefix + str(uuid.uuid4().hex.upper()) for unused in range(files)])
     
 
-    fexec = FunctionExecutor(backend=backend, storage=storage, runtime_memory=1536)
+    fexec = FunctionExecutor(backend=backend, storage=storage, runtime_memory=512)
     start_time = time.time()
-    worker_futures = fexec.map(write_object, keynames)
+    worker_futures = fexec.map(write_object, range(number))
     results = fexec.get_result()
     end_time = time.time()
 
@@ -144,25 +140,24 @@ def write(backend, storage, bucket_name, kb_per_work, number, files, key_prefix)
            'total_time': total_time,
            'worker_stats': worker_stats,
            'bucket_name': bucket_name,
-           'keynames': keynames,
            'results': results}
 
     return res
 
 
-def read(backend, storage, bucket_name, number, keylist_raw, read_times):
+def read(backend, storage, bucket_name, number, files, read_times, key_prefix):
 
     blocksize = 1024
 
-    def read_object(key_name, storage):
+    def read_object(work_id, storage):
         m = hashlib.md5()
         bytes_read = 0
-        print(key_name)
 
         start_time = time.time()
-        for idx in range(len(key_name)):
+        for idx in range(files):
             for unused in range(read_times):
-                fileobj = storage.get_object(bucket_name, key_name[idx], stream=True)
+                key = key_prefix + '_' + str(work_id) + '_' + str(idx)
+                fileobj = storage.get_object(bucket_name, key, stream=True)
                 try:
                     buf = fileobj.read(blocksize)
                     while len(buf) > 0:
@@ -178,14 +173,9 @@ def read(backend, storage, bucket_name, number, keylist_raw, read_times):
 
         return {'start_time': start_time, 'end_time': end_time, 'mb_rate': mb_rate, 'bytes_read': bytes_read}
 
-    if number == 0:
-        keynames = keylist_raw
-    else:
-        keynames = [keylist_raw[i % len(keylist_raw)] for i in range(number)]
-
-    fexec = FunctionExecutor(backend=backend, storage=storage, runtime_memory=1536)
+    fexec = FunctionExecutor(backend=backend, storage=storage, runtime_memory=512)
     start_time = time.time()
-    worker_futures = fexec.map(read_object, keynames)
+    worker_futures = fexec.map(read_object, range(number))
     results = fexec.get_result()
     end_time = time.time()
 
@@ -220,14 +210,14 @@ def cli():
 @click.option('--backend', '-b', default='aliyun_fc', help='compute backend name', type=str)
 @click.option('--storage', '-s', default='aliyun_oss', help='storage backend name', type=str)
 @click.option('--bucket_name', default='data-lithops', help='bucket to save files in')
-@click.option('--kb_per_work', help='KB of each object', type=int)
+@click.option('--kb_per_worker', help='KB of each object', type=int)
 @click.option('--number', help='number of functions', type=int)
 @click.option('--files', default=1, help='write files number of each function', type=int)
 @click.option('--key_prefix', default='bandwidth', help='Object key prefix')
 @click.option('--outdir', default='.', help='dir to save results in')
 @click.option('--name', '-n', default=None, help='filename to save results in')
 @click.option('--read_times', default=1, help="number of times to read each COS key")
-def run(backend, storage, bucket_name, kb_per_work, number, files, key_prefix, outdir, name, read_times):
+def run(backend, storage, bucket_name, kb_per_worker, number, files, key_prefix, outdir, name, read_times):
     if name is None:
         name = number
 
@@ -235,18 +225,19 @@ def run(backend, storage, bucket_name, kb_per_work, number, files, key_prefix, o
         print('Executing Write Test:')
         if bucket_name is None:
             raise ValueError('You must provide a bucket name within --bucket_name parameter')
-        res_write = write(backend, storage, bucket_name, kb_per_work, number, files, key_prefix)
+        res_write = write(backend, storage, bucket_name, kb_per_worker, number, files, key_prefix)
         pickle.dump(res_write, open('{}/{}_write.pickle'.format(outdir, name), 'wb'), -1)
         print('Sleeping 20 seconds...')
         time.sleep(20)
         print('Executing Read Test:')
-        bucket_name = res_write['bucket_name']
-        keynames = res_write['keynames']
-        res_read = read(backend, storage, bucket_name, number, keynames, read_times)
+        res_read = read(backend, storage, bucket_name, number, files, read_times, key_prefix)
         pickle.dump(res_read, open('{}/{}_read.pickle'.format(outdir, name), 'wb'), -1)
 
-        for idx in range(len(keynames)):
-            delete_temp_data(storage, bucket_name, keynames[idx])
+        for i in range(number):
+            keynames = []
+            for j in range(files):
+                keynames.append(key_prefix + '_' + str(i) + '_' + str(j))
+            delete_temp_data(storage, bucket_name, keynames)
     else:
         res_write = pickle.load(open('{}/{}_write.pickle'.format(outdir, name), 'rb'))
         res_read = pickle.load(open('{}/{}_read.pickle'.format(outdir, name), 'rb'))

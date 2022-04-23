@@ -1,0 +1,54 @@
+Aggregate Write Bandwidth:0.0015822342720744644
+Aggregate Read Bandwidth:0.003966893490510636
+Aggregate Write Bandwidth:0.003423872231172351
+Aggregate Read Bandwidth:0.009116186580094969
+Aggregate Write Bandwidth:0.0035745559537360516
+Aggregate Read Bandwidth:0.008759104905316454
+Aggregate Write Bandwidth:0.0035596407324218903
+Aggregate Read Bandwidth:0.009013581603673767
+Aggregate Write Bandwidth:0.0035949467301596523
+Aggregate Read Bandwidth:0.008358605806309814
+
+Aggregate Write Bandwidth:0.03621400084549131
+Aggregate Read Bandwidth:0.047565213952309685
+Aggregate Write Bandwidth:0.034969507311147834
+Aggregate Read Bandwidth:0.08136458025068834
+Aggregate Write Bandwidth:0.03394187370016967
+Aggregate Read Bandwidth:0.0828288036234844
+Aggregate Write Bandwidth:0.03482735393441522
+Aggregate Read Bandwidth:0.08129124238906685
+Aggregate Write Bandwidth:0.033646902510494785
+Aggregate Read Bandwidth:0.08383074877311376
+
+Aggregate Write Bandwidth:0.30592872945617594
+Aggregate Read Bandwidth:0.5935964656730124
+Aggregate Write Bandwidth:0.30216229180042914
+Aggregate Read Bandwidth:0.5685384556526429
+Aggregate Write Bandwidth:0.2876684526588414
+Aggregate Read Bandwidth:0.5923852131350736
+Aggregate Write Bandwidth:0.29313790738276685
+Aggregate Read Bandwidth:0.5828090184926807
+Aggregate Write Bandwidth:0.30327926845461445
+Aggregate Read Bandwidth:0.5839982637802975
+
+Aggregate Write Bandwidth:1.7627828225637865
+Aggregate Read Bandwidth:2.0774524527724236
+Aggregate Write Bandwidth:1.7316603063571518
+Aggregate Read Bandwidth:1.8354499044838086
+Aggregate Write Bandwidth:1.646887816689507
+Aggregate Read Bandwidth:1.818004931099673
+Aggregate Write Bandwidth:1.6745494796047689
+Aggregate Read Bandwidth:1.8235761110956346
+Aggregate Write Bandwidth:1.693353155578361
+Aggregate Read Bandwidth:1.7842652151996714
+
+Aggregate Write Bandwidth:2.075037850491297
+Aggregate Read Bandwidth:1.8460588772013207
+Aggregate Write Bandwidth:1.9319035087587113
+Aggregate Read Bandwidth:1.892412577012551
+Aggregate Write Bandwidth:1.9297604695683692
+Aggregate Read Bandwidth:1.7055260559960514
+Aggregate Write Bandwidth:1.9369091840096664
+Aggregate Read Bandwidth:1.8097058620725557
+Aggregate Write Bandwidth:1.9153016728225147
+Aggregate Read Bandwidth:1.7869837695889956
