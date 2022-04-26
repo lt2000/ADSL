@@ -108,8 +108,8 @@ def write(backend, storage, bucket_name, mb_per_file, number, key_prefix):
 
     def write_object(work_id, storage):
         bytes_n = mb_per_file * 1024**2
+        d = RandomDataGenerator(bytes_n)
         for idx in range(number):
-            d = RandomDataGenerator(bytes_n)
             key_name = key_prefix + '_' + str(work_id) + '_' + str(idx)
             storage.put_object(bucket_name, key_name, d)
 

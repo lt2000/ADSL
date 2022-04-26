@@ -1,0 +1,8 @@
+lithops-data/obj1.json
+lithops-data/obj2.json
+lithops-data/obj3.json
+lithops-data/obj4.json
+lithops-data/obj5.json
+lithops-data/obj6.json
+lithops-data/obj7.json
+lithops-data/obj8.json

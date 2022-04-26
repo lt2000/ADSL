@@ -88,25 +88,3 @@ if __name__ == '__main__':
     print(len(d))
     print(sys.getsizeof(d))
 
-#!/bin/bash
-
-i=1
-j=1
-max_io_size=1
-io_size=1
-epoch=10
-
-
-while(($i<=$max_io_size))
-do
-        let "j=1"
-        let "f=100"
-        while(($j<=$epoch))
-        do
-                python3 bandwidth_benchmark.py run  --kb_per_worker=${f}  -- number=100 --files=${f} --outdir=bandwidth -n ${j}
-                let "j++"
-                let "f+=100"
-        done
-        let "i++"
-        let "io_size*=10"
-done

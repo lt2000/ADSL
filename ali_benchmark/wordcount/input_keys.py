@@ -1,6 +1,6 @@
 import os
 
-input_file = './text_chunks_10000'
+input_file = './input'
 
 filelist = os.listdir(input_file)
 with open('./input_keys.txt', 'w') as f:
