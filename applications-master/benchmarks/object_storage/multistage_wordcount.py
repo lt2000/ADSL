@@ -34,12 +34,14 @@ def mapper(backend, storage, bucket_name, intermediate_bucket_name, num_reducers
       map_ids[m] = cur
       cur = cur + 1
     def split_count(key_name, storage):
+        delete_keylist = []
         output_buckets = {}
         start = p * (map_ids[key_name] // (len(map_ids) // f))
         end = start + p
         for idx in range(start, end):
             output_buckets[idx] = Counter({})
-
+        my_worker_id = map_ids[key_name]
+        shuffle_key_prefix = 'Shuffle-Stage-1/'
         t1 = time.time()    
         fileobj = storage.get_object(bucket_name, key_name, stream=True)
         data = fileobj.read()
@@ -59,17 +61,16 @@ def mapper(backend, storage, bucket_name, intermediate_bucket_name, num_reducers
                 pass
                 
         t3 = time.time()
-        my_worker_id = map_ids[key_name]
-        shuffle_key_prefix = 'Shuffle-Stage-1/'
         for idx in output_buckets.keys():
             key = shuffle_key_prefix + 'mapper' + str(my_worker_id) + '_' + 'combiner' + str(idx)
+            delete_keylist.append(key)
             d = pickle.dumps(output_buckets[idx])
             storage.put_object(intermediate_bucket_name, key, d)
         t4 = time.time()
         read_input_time = t2 -t1
         split__time = t3 -t2
         shuffle_time = t4 - t3
-        return {'Read Input Time': read_input_time, 'Split Time': split__time, 'Shuffle Time': shuffle_time}
+        return {'Read Input Time': read_input_time, 'Split Time': split__time, 'Shuffle Time-1-Write': shuffle_time, 'Delete Keylist': delete_keylist}
 
     fexec = FunctionExecutor(backend=backend, storage=storage, runtime_memory=512)
     fexec.map(split_count, keynames)
@@ -84,9 +85,10 @@ def combiner(backend, storage, bucket_name, intermediate_bucket_name, num_mapper
             base[k] += v
 
     def merge_count(worker_id, storage):
+        delete_keylist = []
         word_count_dict = Counter({})
         shuffle_time = 0
-        merge_time = 0
+        combine_time = 0
         start_mapper = (worker_id // p) * (num_mappers // f)
         end_mapper = start_mapper + (num_mappers // f) 
         shuffle_key_prefix = 'Shuffle-Stage-1/'
@@ -102,29 +104,33 @@ def combiner(backend, storage, bucket_name, intermediate_bucket_name, num_mapper
             except Exception as e:
                 print("except:",e)
             shuffle_time += (t2- t1)
-            merge_time += (t3 - t2)
+            combine_time += (t3 - t2)
         
+
         output_buckets = {}
         start = (worker_id % p) * f
         end = start + f
         for idx in range(start, end):
             output_buckets[idx] = Counter({})
+        t1 = time.time()
         for (word, count) in word_count_dict.items():
                     digset = hashlib.md5(word.encode('utf-8')).hexdigest()
                     w = int(digset, 16)
                     bucket = hash(w) % num_reducers
                     bucket_dict = output_buckets[bucket]
                     bucket_dict[word] = count
-        t1 = time.time()
+        t2 = time.time()
         shuffle_key_prefix = 'Shuffle-Stage-2/'
         for idx in output_buckets.keys():
             key = shuffle_key_prefix + 'combiner' + str(worker_id) + '_' + 'reducer' + str(idx)
+            delete_keylist.append(key)
             d = pickle.dumps(output_buckets[idx])
             storage.put_object(intermediate_bucket_name, key, d)            
-        t2 = time.time()
-        write_output_time = t2 -t1
+        t3 = time.time()
+        combine_time += t2 - t1
+        write_output_time = t3 - t2
         #return {str(worker_id): word_count_dict}
-        return {'Write Output Time': write_output_time, 'Merge Time': merge_time, 'Shuffle Time': shuffle_time}
+        return {'Shuffle Time-2-Write': write_output_time, 'Combine Time': combine_time, 'Shuffle Time-1-Read': shuffle_time, 'Delete Keylist': delete_keylist}
 
     fexec = FunctionExecutor(backend=backend, storage=storage, runtime_memory=512)
     fexec.map(merge_count, range(num_reducers))
@@ -164,8 +170,7 @@ def reducer(backend, storage, bucket_name, intermediate_bucket_name, num_mappers
         storage.put_object(bucket_name, key, d)
         t2 = time.time()
         write_output_time = t2 -t1
-        #return {str(worker_id): word_count_dict}
-        return {'Write Output Time': write_output_time, 'Merge Time': merge_time, 'Shuffle Time': shuffle_time}
+        return {'Write Output Time': write_output_time, 'Merge Time': merge_time, 'Shuffle Time-2-Read': shuffle_time, 'Delete Key': key}
 
     fexec = FunctionExecutor(backend=backend, storage=storage, runtime_memory=512)
     fexec.map(merge_count, range(num_reducers))
